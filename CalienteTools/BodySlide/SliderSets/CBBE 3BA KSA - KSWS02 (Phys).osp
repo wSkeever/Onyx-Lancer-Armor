@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE 3BA KSA - Body - KSWS02 (3BBB Phys)">
+        <DataFolder>CBBE 3BA KSA\ksws02</DataFolder>
+        <SourceFile>Body (Phys).nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSA\ksws02</OutputPath>
+        <OutputFile GenWeights="true">BodyF</OutputFile>
+        <Shape target="3BA" DataFolder="CBBE KSA\ksws02">3BA</Shape>
+        <Shape target="armplates">armplates</Shape>
+        <Shape target="belt">belt</Shape>
+        <Shape target="coat">coat</Shape>
+        <Shape target="obi">obi</Shape>
+        <Shape target="pants">pants</Shape>
+        <Shape target="pauldron">pauldron</Shape>
+        <Shape target="skirt-center">skirt-center</Shape>
+        <Shape target="skirt-side">skirt-side</Shape>
+        <Shape target="sleeves">sleeves</Shape>
+        <Shape target="vambrace">vambrace</Shape>
+        <Shape target="winglets">winglets</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="3BAAnkleSize" target="3BA" local="true">Body (Phys).osd\3BAAnkleSize</Data>
+            <Data name="pantsAnkleSize" target="pants" local="true">Body (Phys).osd\pantsAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="beltAppleCheeks" target="belt" local="true">Body (Phys).osd\beltAppleCheeks</Data>
+            <Data name="obiAppleCheeks" target="obi" local="true">Body (Phys).osd\obiAppleCheeks</Data>
+            <Data name="pantsAppleCheeks" target="pants" local="true">Body (Phys).osd\pantsAppleCheeks</Data>
+            <Data name="wingletsAppleCheeks" target="winglets" local="true">Body (Phys).osd\wingletsAppleCheeks</Data>
+            <Data name="coatAppleCheeks" target="coat" local="true">Body (Phys).osd\coatAppleCheeks</Data>
+            <Data name="skirt-centerAppleCheeks" target="skirt-center" local="true">Body (Phys).osd\skirt-centerAppleCheeks</Data>
+            <Data name="skirt-sideAppleCheeks" target="skirt-side" local="true">Body (Phys).osd\skirt-sideAppleCheeks</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="armplatesBack" target="armplates" local="true">Body (Phys).osd\armplatesBack</Data>
+            <Data name="beltBack" target="belt" local="true">Body (Phys).osd\beltBack</Data>
+            <Data name="obiBack" target="obi" local="true">Body (Phys).osd\obiBack</Data>
+            <Data name="pantsBack" target="pants" local="true">Body (Phys).osd\pantsBack</Data>
+            <Data name="wingletsBack" target="winglets" local="true">Body (Phys).osd\wingletsBack</Data>
+            <Data name="coatBack" target="coat" local="true">Body (Phys).osd\coatBack</Data>
+            <Data name="pauldronBack" target="pauldron" local="true">Body (Phys).osd\pauldronBack</Data>
+            <Data name="vambraceBack" target="vambrace" local="true">Body (Phys).osd\vambraceBack</Data>
+            <Data name="skirt-centerBack" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBack</Data>
+            <Data name="skirt-sideBack" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="beltBackArch" target="belt" local="true">Body (Phys).osd\beltBackArch</Data>
+            <Data name="obiBackArch" target="obi" local="true">Body (Phys).osd\obiBackArch</Data>
+            <Data name="pantsBackArch" target="pants" local="true">Body (Phys).osd\pantsBackArch</Data>
+            <Data name="wingletsBackArch" target="winglets" local="true">Body (Phys).osd\wingletsBackArch</Data>
+            <Data name="coatBackArch" target="coat" local="true">Body (Phys).osd\coatBackArch</Data>
+            <Data name="skirt-centerBackArch" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBackArch</Data>
+            <Data name="skirt-sideBackArch" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="beltBelly" target="belt" local="true">Body (Phys).osd\beltBelly</Data>
+            <Data name="obiBelly" target="obi" local="true">Body (Phys).osd\obiBelly</Data>
+            <Data name="pantsBelly" target="pants" local="true">Body (Phys).osd\pantsBelly</Data>
+            <Data name="coatBelly" target="coat" local="true">Body (Phys).osd\coatBelly</Data>
+            <Data name="skirt-centerBelly" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBelly</Data>
+            <Data name="skirt-sideBelly" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="beltBigBelly" target="belt" local="true">Body (Phys).osd\beltBigBelly</Data>
+            <Data name="obiBigBelly" target="obi" local="true">Body (Phys).osd\obiBigBelly</Data>
+            <Data name="pantsBigBelly" target="pants" local="true">Body (Phys).osd\pantsBigBelly</Data>
+            <Data name="wingletsBigBelly" target="winglets" local="true">Body (Phys).osd\wingletsBigBelly</Data>
+            <Data name="coatBigBelly" target="coat" local="true">Body (Phys).osd\coatBigBelly</Data>
+            <Data name="skirt-centerBigBelly" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBigBelly</Data>
+            <Data name="skirt-sideBigBelly" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="beltBigButt" target="belt" local="true">Body (Phys).osd\beltBigButt</Data>
+            <Data name="obiBigButt" target="obi" local="true">Body (Phys).osd\obiBigButt</Data>
+            <Data name="pantsBigButt" target="pants" local="true">Body (Phys).osd\pantsBigButt</Data>
+            <Data name="wingletsBigButt" target="winglets" local="true">Body (Phys).osd\wingletsBigButt</Data>
+            <Data name="coatBigButt" target="coat" local="true">Body (Phys).osd\coatBigButt</Data>
+            <Data name="skirt-centerBigButt" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBigButt</Data>
+            <Data name="skirt-sideBigButt" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="armplatesBigTorso" target="armplates" local="true">Body (Phys).osd\armplatesBigTorso</Data>
+            <Data name="beltBigTorso" target="belt" local="true">Body (Phys).osd\beltBigTorso</Data>
+            <Data name="obiBigTorso" target="obi" local="true">Body (Phys).osd\obiBigTorso</Data>
+            <Data name="pantsBigTorso" target="pants" local="true">Body (Phys).osd\pantsBigTorso</Data>
+            <Data name="wingletsBigTorso" target="winglets" local="true">Body (Phys).osd\wingletsBigTorso</Data>
+            <Data name="coatBigTorso" target="coat" local="true">Body (Phys).osd\coatBigTorso</Data>
+            <Data name="pauldronBigTorso" target="pauldron" local="true">Body (Phys).osd\pauldronBigTorso</Data>
+            <Data name="vambraceBigTorso" target="vambrace" local="true">Body (Phys).osd\vambraceBigTorso</Data>
+            <Data name="skirt-centerBigTorso" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBigTorso</Data>
+            <Data name="skirt-sideBigTorso" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="obiBreastCenter" target="obi" local="true">Body (Phys).osd\obiBreastCenter</Data>
+            <Data name="wingletsBreastCenter" target="winglets" local="true">Body (Phys).osd\wingletsBreastCenter</Data>
+            <Data name="coatBreastCenter" target="coat" local="true">Body (Phys).osd\coatBreastCenter</Data>
+            <Data name="vambraceBreastCenter" target="vambrace" local="true">Body (Phys).osd\vambraceBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="obiBreastCenterBig" target="obi" local="true">Body (Phys).osd\obiBreastCenterBig</Data>
+            <Data name="coatBreastCenterBig" target="coat" local="true">Body (Phys).osd\coatBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="obiBreastCleavage" target="obi" local="true">Body (Phys).osd\obiBreastCleavage</Data>
+            <Data name="wingletsBreastCleavage" target="winglets" local="true">Body (Phys).osd\wingletsBreastCleavage</Data>
+            <Data name="coatBreastCleavage" target="coat" local="true">Body (Phys).osd\coatBreastCleavage</Data>
+            <Data name="vambraceBreastCleavage" target="vambrace" local="true">Body (Phys).osd\vambraceBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="obiBreastFlatness2" target="obi" local="true">Body (Phys).osd\obiBreastFlatness2</Data>
+            <Data name="wingletsBreastFlatness2" target="winglets" local="true">Body (Phys).osd\wingletsBreastFlatness2</Data>
+            <Data name="coatBreastFlatness2" target="coat" local="true">Body (Phys).osd\coatBreastFlatness2</Data>
+            <Data name="vambraceBreastFlatness2" target="vambrace" local="true">Body (Phys).osd\vambraceBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="armplatesBreastGravity2" target="armplates" local="true">Body (Phys).osd\armplatesBreastGravity2</Data>
+            <Data name="obiBreastGravity2" target="obi" local="true">Body (Phys).osd\obiBreastGravity2</Data>
+            <Data name="wingletsBreastGravity2" target="winglets" local="true">Body (Phys).osd\wingletsBreastGravity2</Data>
+            <Data name="coatBreastGravity2" target="coat" local="true">Body (Phys).osd\coatBreastGravity2</Data>
+            <Data name="pauldronBreastGravity2" target="pauldron" local="true">Body (Phys).osd\pauldronBreastGravity2</Data>
+            <Data name="vambraceBreastGravity2" target="vambrace" local="true">Body (Phys).osd\vambraceBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="armplatesBreastHeight" target="armplates" local="true">Body (Phys).osd\armplatesBreastHeight</Data>
+            <Data name="beltBreastHeight" target="belt" local="true">Body (Phys).osd\beltBreastHeight</Data>
+            <Data name="obiBreastHeight" target="obi" local="true">Body (Phys).osd\obiBreastHeight</Data>
+            <Data name="pantsBreastHeight" target="pants" local="true">Body (Phys).osd\pantsBreastHeight</Data>
+            <Data name="wingletsBreastHeight" target="winglets" local="true">Body (Phys).osd\wingletsBreastHeight</Data>
+            <Data name="coatBreastHeight" target="coat" local="true">Body (Phys).osd\coatBreastHeight</Data>
+            <Data name="pauldronBreastHeight" target="pauldron" local="true">Body (Phys).osd\pauldronBreastHeight</Data>
+            <Data name="vambraceBreastHeight" target="vambrace" local="true">Body (Phys).osd\vambraceBreastHeight</Data>
+            <Data name="skirt-centerBreastHeight" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBreastHeight</Data>
+            <Data name="skirt-sideBreastHeight" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="obiBreastPerkiness" target="obi" local="true">Body (Phys).osd\obiBreastPerkiness</Data>
+            <Data name="wingletsBreastPerkiness" target="winglets" local="true">Body (Phys).osd\wingletsBreastPerkiness</Data>
+            <Data name="coatBreastPerkiness" target="coat" local="true">Body (Phys).osd\coatBreastPerkiness</Data>
+            <Data name="vambraceBreastPerkiness" target="vambrace" local="true">Body (Phys).osd\vambraceBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="obiBreasts" target="obi" local="true">Body (Phys).osd\obiBreasts</Data>
+            <Data name="wingletsBreasts" target="winglets" local="true">Body (Phys).osd\wingletsBreasts</Data>
+            <Data name="coatBreasts" target="coat" local="true">Body (Phys).osd\coatBreasts</Data>
+            <Data name="pauldronBreasts" target="pauldron" local="true">Body (Phys).osd\pauldronBreasts</Data>
+            <Data name="vambraceBreasts" target="vambrace" local="true">Body (Phys).osd\vambraceBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="obiBreastsFantasy" target="obi" local="true">Body (Phys).osd\obiBreastsFantasy</Data>
+            <Data name="wingletsBreastsFantasy" target="winglets" local="true">Body (Phys).osd\wingletsBreastsFantasy</Data>
+            <Data name="coatBreastsFantasy" target="coat" local="true">Body (Phys).osd\coatBreastsFantasy</Data>
+            <Data name="pauldronBreastsFantasy" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsFantasy</Data>
+            <Data name="vambraceBreastsFantasy" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="armplatesBreastsGone" target="armplates" local="true">Body (Phys).osd\armplatesBreastsGone</Data>
+            <Data name="obiBreastsGone" target="obi" local="true">Body (Phys).osd\obiBreastsGone</Data>
+            <Data name="wingletsBreastsGone" target="winglets" local="true">Body (Phys).osd\wingletsBreastsGone</Data>
+            <Data name="coatBreastsGone" target="coat" local="true">Body (Phys).osd\coatBreastsGone</Data>
+            <Data name="pauldronBreastsGone" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsGone</Data>
+            <Data name="vambraceBreastsGone" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="armplatesBreastsNewSH" target="armplates" local="true">Body (Phys).osd\armplatesBreastsNewSH</Data>
+            <Data name="beltBreastsNewSH" target="belt" local="true">Body (Phys).osd\beltBreastsNewSH</Data>
+            <Data name="obiBreastsNewSH" target="obi" local="true">Body (Phys).osd\obiBreastsNewSH</Data>
+            <Data name="wingletsBreastsNewSH" target="winglets" local="true">Body (Phys).osd\wingletsBreastsNewSH</Data>
+            <Data name="coatBreastsNewSH" target="coat" local="true">Body (Phys).osd\coatBreastsNewSH</Data>
+            <Data name="pauldronBreastsNewSH" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsNewSH</Data>
+            <Data name="vambraceBreastsNewSH" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsNewSH</Data>
+            <Data name="skirt-centerBreastsNewSH" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="armplatesBreastsNewSHSymmetry" target="armplates" local="true">Body (Phys).osd\armplatesBreastsNewSHSymmetry</Data>
+            <Data name="obiBreastsNewSHSymmetry" target="obi" local="true">Body (Phys).osd\obiBreastsNewSHSymmetry</Data>
+            <Data name="wingletsBreastsNewSHSymmetry" target="winglets" local="true">Body (Phys).osd\wingletsBreastsNewSHSymmetry</Data>
+            <Data name="coatBreastsNewSHSymmetry" target="coat" local="true">Body (Phys).osd\coatBreastsNewSHSymmetry</Data>
+            <Data name="pauldronBreastsNewSHSymmetry" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsNewSHSymmetry</Data>
+            <Data name="vambraceBreastsNewSHSymmetry" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="armplatesBreastsSmall" target="armplates" local="true">Body (Phys).osd\armplatesBreastsSmall</Data>
+            <Data name="beltBreastsSmall" target="belt" local="true">Body (Phys).osd\beltBreastsSmall</Data>
+            <Data name="obiBreastsSmall" target="obi" local="true">Body (Phys).osd\obiBreastsSmall</Data>
+            <Data name="pantsBreastsSmall" target="pants" local="true">Body (Phys).osd\pantsBreastsSmall</Data>
+            <Data name="wingletsBreastsSmall" target="winglets" local="true">Body (Phys).osd\wingletsBreastsSmall</Data>
+            <Data name="coatBreastsSmall" target="coat" local="true">Body (Phys).osd\coatBreastsSmall</Data>
+            <Data name="pauldronBreastsSmall" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsSmall</Data>
+            <Data name="vambraceBreastsSmall" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsSmall</Data>
+            <Data name="skirt-centerBreastsSmall" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBreastsSmall</Data>
+            <Data name="skirt-sideBreastsSmall" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="armplatesBreastsSmall2" target="armplates" local="true">Body (Phys).osd\armplatesBreastsSmall2</Data>
+            <Data name="beltBreastsSmall2" target="belt" local="true">Body (Phys).osd\beltBreastsSmall2</Data>
+            <Data name="obiBreastsSmall2" target="obi" local="true">Body (Phys).osd\obiBreastsSmall2</Data>
+            <Data name="pantsBreastsSmall2" target="pants" local="true">Body (Phys).osd\pantsBreastsSmall2</Data>
+            <Data name="wingletsBreastsSmall2" target="winglets" local="true">Body (Phys).osd\wingletsBreastsSmall2</Data>
+            <Data name="coatBreastsSmall2" target="coat" local="true">Body (Phys).osd\coatBreastsSmall2</Data>
+            <Data name="pauldronBreastsSmall2" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsSmall2</Data>
+            <Data name="vambraceBreastsSmall2" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsSmall2</Data>
+            <Data name="skirt-centerBreastsSmall2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBreastsSmall2</Data>
+            <Data name="skirt-sideBreastsSmall2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="armplatesBreastsTogether" target="armplates" local="true">Body (Phys).osd\armplatesBreastsTogether</Data>
+            <Data name="obiBreastsTogether" target="obi" local="true">Body (Phys).osd\obiBreastsTogether</Data>
+            <Data name="wingletsBreastsTogether" target="winglets" local="true">Body (Phys).osd\wingletsBreastsTogether</Data>
+            <Data name="coatBreastsTogether" target="coat" local="true">Body (Phys).osd\coatBreastsTogether</Data>
+            <Data name="pauldronBreastsTogether" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsTogether</Data>
+            <Data name="vambraceBreastsTogether" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="obiBreastTopSlope" target="obi" local="true">Body (Phys).osd\obiBreastTopSlope</Data>
+            <Data name="wingletsBreastTopSlope" target="winglets" local="true">Body (Phys).osd\wingletsBreastTopSlope</Data>
+            <Data name="coatBreastTopSlope" target="coat" local="true">Body (Phys).osd\coatBreastTopSlope</Data>
+            <Data name="pauldronBreastTopSlope" target="pauldron" local="true">Body (Phys).osd\pauldronBreastTopSlope</Data>
+            <Data name="vambraceBreastTopSlope" target="vambrace" local="true">Body (Phys).osd\vambraceBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="obiBreastWidth" target="obi" local="true">Body (Phys).osd\obiBreastWidth</Data>
+            <Data name="wingletsBreastWidth" target="winglets" local="true">Body (Phys).osd\wingletsBreastWidth</Data>
+            <Data name="coatBreastWidth" target="coat" local="true">Body (Phys).osd\coatBreastWidth</Data>
+            <Data name="pauldronBreastWidth" target="pauldron" local="true">Body (Phys).osd\pauldronBreastWidth</Data>
+            <Data name="vambraceBreastWidth" target="vambrace" local="true">Body (Phys).osd\vambraceBreastWidth</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="beltBreastSideShape" target="belt" local="true">Body (Phys).osd\beltBreastSideShape</Data>
+            <Data name="obiBreastSideShape" target="obi" local="true">Body (Phys).osd\obiBreastSideShape</Data>
+            <Data name="pantsBreastSideShape" target="pants" local="true">Body (Phys).osd\pantsBreastSideShape</Data>
+            <Data name="wingletsBreastSideShape" target="winglets" local="true">Body (Phys).osd\wingletsBreastSideShape</Data>
+            <Data name="coatBreastSideShape" target="coat" local="true">Body (Phys).osd\coatBreastSideShape</Data>
+            <Data name="vambraceBreastSideShape" target="vambrace" local="true">Body (Phys).osd\vambraceBreastSideShape</Data>
+            <Data name="skirt-centerBreastSideShape" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBreastSideShape</Data>
+            <Data name="skirt-sideBreastSideShape" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="beltBreastUnderDepth" target="belt" local="true">Body (Phys).osd\beltBreastUnderDepth</Data>
+            <Data name="obiBreastUnderDepth" target="obi" local="true">Body (Phys).osd\obiBreastUnderDepth</Data>
+            <Data name="pantsBreastUnderDepth" target="pants" local="true">Body (Phys).osd\pantsBreastUnderDepth</Data>
+            <Data name="wingletsBreastUnderDepth" target="winglets" local="true">Body (Phys).osd\wingletsBreastUnderDepth</Data>
+            <Data name="coatBreastUnderDepth" target="coat" local="true">Body (Phys).osd\coatBreastUnderDepth</Data>
+            <Data name="skirt-centerBreastUnderDepth" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBreastUnderDepth</Data>
+            <Data name="skirt-sideBreastUnderDepth" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="beltButt" target="belt" local="true">Body (Phys).osd\beltButt</Data>
+            <Data name="obiButt" target="obi" local="true">Body (Phys).osd\obiButt</Data>
+            <Data name="pantsButt" target="pants" local="true">Body (Phys).osd\pantsButt</Data>
+            <Data name="coatButt" target="coat" local="true">Body (Phys).osd\coatButt</Data>
+            <Data name="skirt-centerButt" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButt</Data>
+            <Data name="skirt-sideButt" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="beltButtClassic" target="belt" local="true">Body (Phys).osd\beltButtClassic</Data>
+            <Data name="obiButtClassic" target="obi" local="true">Body (Phys).osd\obiButtClassic</Data>
+            <Data name="pantsButtClassic" target="pants" local="true">Body (Phys).osd\pantsButtClassic</Data>
+            <Data name="wingletsButtClassic" target="winglets" local="true">Body (Phys).osd\wingletsButtClassic</Data>
+            <Data name="coatButtClassic" target="coat" local="true">Body (Phys).osd\coatButtClassic</Data>
+            <Data name="skirt-centerButtClassic" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtClassic</Data>
+            <Data name="skirt-sideButtClassic" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="beltButtCrack" target="belt" local="true">Body (Phys).osd\beltButtCrack</Data>
+            <Data name="obiButtCrack" target="obi" local="true">Body (Phys).osd\obiButtCrack</Data>
+            <Data name="pantsButtCrack" target="pants" local="true">Body (Phys).osd\pantsButtCrack</Data>
+            <Data name="coatButtCrack" target="coat" local="true">Body (Phys).osd\coatButtCrack</Data>
+            <Data name="skirt-centerButtCrack" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtCrack</Data>
+            <Data name="skirt-sideButtCrack" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="beltButtShape2" target="belt" local="true">Body (Phys).osd\beltButtShape2</Data>
+            <Data name="obiButtShape2" target="obi" local="true">Body (Phys).osd\obiButtShape2</Data>
+            <Data name="pantsButtShape2" target="pants" local="true">Body (Phys).osd\pantsButtShape2</Data>
+            <Data name="wingletsButtShape2" target="winglets" local="true">Body (Phys).osd\wingletsButtShape2</Data>
+            <Data name="coatButtShape2" target="coat" local="true">Body (Phys).osd\coatButtShape2</Data>
+            <Data name="skirt-centerButtShape2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtShape2</Data>
+            <Data name="skirt-sideButtShape2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="beltButtSmall" target="belt" local="true">Body (Phys).osd\beltButtSmall</Data>
+            <Data name="obiButtSmall" target="obi" local="true">Body (Phys).osd\obiButtSmall</Data>
+            <Data name="pantsButtSmall" target="pants" local="true">Body (Phys).osd\pantsButtSmall</Data>
+            <Data name="wingletsButtSmall" target="winglets" local="true">Body (Phys).osd\wingletsButtSmall</Data>
+            <Data name="coatButtSmall" target="coat" local="true">Body (Phys).osd\coatButtSmall</Data>
+            <Data name="skirt-centerButtSmall" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtSmall</Data>
+            <Data name="skirt-sideButtSmall" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtSmall</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="beltButtDimples" target="belt" local="true">Body (Phys).osd\beltButtDimples</Data>
+            <Data name="obiButtDimples" target="obi" local="true">Body (Phys).osd\obiButtDimples</Data>
+            <Data name="pantsButtDimples" target="pants" local="true">Body (Phys).osd\pantsButtDimples</Data>
+            <Data name="coatButtDimples" target="coat" local="true">Body (Phys).osd\coatButtDimples</Data>
+            <Data name="skirt-centerButtDimples" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtDimples</Data>
+            <Data name="skirt-sideButtDimples" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="pantsButtUnderFold" target="pants" local="true">Body (Phys).osd\pantsButtUnderFold</Data>
+            <Data name="skirt-centerButtUnderFold" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtUnderFold</Data>
+            <Data name="skirt-sideButtUnderFold" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtUnderFold</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="3BACalfSize" target="3BA" local="true">Body (Phys).osd\3BACalfSize</Data>
+            <Data name="pantsCalfSize" target="pants" local="true">Body (Phys).osd\pantsCalfSize</Data>
+            <Data name="skirt-sideCalfSize" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="3BACalfSmooth" target="3BA" local="true">Body (Phys).osd\3BACalfSmooth</Data>
+            <Data name="pantsCalfSmooth" target="pants" local="true">Body (Phys).osd\pantsCalfSmooth</Data>
+            <Data name="skirt-sideCalfSmooth" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="armplatesChestDepth" target="armplates" local="true">Body (Phys).osd\armplatesChestDepth</Data>
+            <Data name="beltChestDepth" target="belt" local="true">Body (Phys).osd\beltChestDepth</Data>
+            <Data name="obiChestDepth" target="obi" local="true">Body (Phys).osd\obiChestDepth</Data>
+            <Data name="pantsChestDepth" target="pants" local="true">Body (Phys).osd\pantsChestDepth</Data>
+            <Data name="wingletsChestDepth" target="winglets" local="true">Body (Phys).osd\wingletsChestDepth</Data>
+            <Data name="coatChestDepth" target="coat" local="true">Body (Phys).osd\coatChestDepth</Data>
+            <Data name="pauldronChestDepth" target="pauldron" local="true">Body (Phys).osd\pauldronChestDepth</Data>
+            <Data name="vambraceChestDepth" target="vambrace" local="true">Body (Phys).osd\vambraceChestDepth</Data>
+            <Data name="skirt-centerChestDepth" target="skirt-center" local="true">Body (Phys).osd\skirt-centerChestDepth</Data>
+            <Data name="skirt-sideChestDepth" target="skirt-side" local="true">Body (Phys).osd\skirt-sideChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="armplatesChestWidth" target="armplates" local="true">Body (Phys).osd\armplatesChestWidth</Data>
+            <Data name="beltChestWidth" target="belt" local="true">Body (Phys).osd\beltChestWidth</Data>
+            <Data name="obiChestWidth" target="obi" local="true">Body (Phys).osd\obiChestWidth</Data>
+            <Data name="pantsChestWidth" target="pants" local="true">Body (Phys).osd\pantsChestWidth</Data>
+            <Data name="wingletsChestWidth" target="winglets" local="true">Body (Phys).osd\wingletsChestWidth</Data>
+            <Data name="coatChestWidth" target="coat" local="true">Body (Phys).osd\coatChestWidth</Data>
+            <Data name="pauldronChestWidth" target="pauldron" local="true">Body (Phys).osd\pauldronChestWidth</Data>
+            <Data name="vambraceChestWidth" target="vambrace" local="true">Body (Phys).osd\vambraceChestWidth</Data>
+            <Data name="skirt-centerChestWidth" target="skirt-center" local="true">Body (Phys).osd\skirt-centerChestWidth</Data>
+            <Data name="skirt-sideChestWidth" target="skirt-side" local="true">Body (Phys).osd\skirt-sideChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="armplatesChubbyArms" target="armplates" local="true">Body (Phys).osd\armplatesChubbyArms</Data>
+            <Data name="obiChubbyArms" target="obi" local="true">Body (Phys).osd\obiChubbyArms</Data>
+            <Data name="wingletsChubbyArms" target="winglets" local="true">Body (Phys).osd\wingletsChubbyArms</Data>
+            <Data name="coatChubbyArms" target="coat" local="true">Body (Phys).osd\coatChubbyArms</Data>
+            <Data name="pauldronChubbyArms" target="pauldron" local="true">Body (Phys).osd\pauldronChubbyArms</Data>
+            <Data name="vambraceChubbyArms" target="vambrace" local="true">Body (Phys).osd\vambraceChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="beltChubbyButt" target="belt" local="true">Body (Phys).osd\beltChubbyButt</Data>
+            <Data name="obiChubbyButt" target="obi" local="true">Body (Phys).osd\obiChubbyButt</Data>
+            <Data name="pantsChubbyButt" target="pants" local="true">Body (Phys).osd\pantsChubbyButt</Data>
+            <Data name="wingletsChubbyButt" target="winglets" local="true">Body (Phys).osd\wingletsChubbyButt</Data>
+            <Data name="coatChubbyButt" target="coat" local="true">Body (Phys).osd\coatChubbyButt</Data>
+            <Data name="skirt-centerChubbyButt" target="skirt-center" local="true">Body (Phys).osd\skirt-centerChubbyButt</Data>
+            <Data name="skirt-sideChubbyButt" target="skirt-side" local="true">Body (Phys).osd\skirt-sideChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="3BAChubbyLegs" target="3BA" local="true">Body (Phys).osd\3BAChubbyLegs</Data>
+            <Data name="pantsChubbyLegs" target="pants" local="true">Body (Phys).osd\pantsChubbyLegs</Data>
+            <Data name="coatChubbyLegs" target="coat" local="true">Body (Phys).osd\coatChubbyLegs</Data>
+            <Data name="skirt-centerChubbyLegs" target="skirt-center" local="true">Body (Phys).osd\skirt-centerChubbyLegs</Data>
+            <Data name="skirt-sideChubbyLegs" target="skirt-side" local="true">Body (Phys).osd\skirt-sideChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="beltChubbyWaist" target="belt" local="true">Body (Phys).osd\beltChubbyWaist</Data>
+            <Data name="obiChubbyWaist" target="obi" local="true">Body (Phys).osd\obiChubbyWaist</Data>
+            <Data name="pantsChubbyWaist" target="pants" local="true">Body (Phys).osd\pantsChubbyWaist</Data>
+            <Data name="wingletsChubbyWaist" target="winglets" local="true">Body (Phys).osd\wingletsChubbyWaist</Data>
+            <Data name="coatChubbyWaist" target="coat" local="true">Body (Phys).osd\coatChubbyWaist</Data>
+            <Data name="vambraceChubbyWaist" target="vambrace" local="true">Body (Phys).osd\vambraceChubbyWaist</Data>
+            <Data name="skirt-centerChubbyWaist" target="skirt-center" local="true">Body (Phys).osd\skirt-centerChubbyWaist</Data>
+            <Data name="skirt-sideChubbyWaist" target="skirt-side" local="true">Body (Phys).osd\skirt-sideChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="beltCrotchBack" target="belt" local="true">Body (Phys).osd\beltCrotchBack</Data>
+            <Data name="obiCrotchBack" target="obi" local="true">Body (Phys).osd\obiCrotchBack</Data>
+            <Data name="pantsCrotchBack" target="pants" local="true">Body (Phys).osd\pantsCrotchBack</Data>
+            <Data name="coatCrotchBack" target="coat" local="true">Body (Phys).osd\coatCrotchBack</Data>
+            <Data name="skirt-centerCrotchBack" target="skirt-center" local="true">Body (Phys).osd\skirt-centerCrotchBack</Data>
+            <Data name="skirt-sideCrotchBack" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="armplatesDoubleMelon" target="armplates" local="true">Body (Phys).osd\armplatesDoubleMelon</Data>
+            <Data name="obiDoubleMelon" target="obi" local="true">Body (Phys).osd\obiDoubleMelon</Data>
+            <Data name="wingletsDoubleMelon" target="winglets" local="true">Body (Phys).osd\wingletsDoubleMelon</Data>
+            <Data name="coatDoubleMelon" target="coat" local="true">Body (Phys).osd\coatDoubleMelon</Data>
+            <Data name="pauldronDoubleMelon" target="pauldron" local="true">Body (Phys).osd\pauldronDoubleMelon</Data>
+            <Data name="vambraceDoubleMelon" target="vambrace" local="true">Body (Phys).osd\vambraceDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="armplatesForearmSize" target="armplates" local="true">Body (Phys).osd\armplatesForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="beltGroin" target="belt" local="true">Body (Phys).osd\beltGroin</Data>
+            <Data name="pantsGroin" target="pants" local="true">Body (Phys).osd\pantsGroin</Data>
+            <Data name="coatGroin" target="coat" local="true">Body (Phys).osd\coatGroin</Data>
+            <Data name="skirt-centerGroin" target="skirt-center" local="true">Body (Phys).osd\skirt-centerGroin</Data>
+            <Data name="skirt-sideGroin" target="skirt-side" local="true">Body (Phys).osd\skirt-sideGroin</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="beltHipForward" target="belt" local="true">Body (Phys).osd\beltHipForward</Data>
+            <Data name="obiHipForward" target="obi" local="true">Body (Phys).osd\obiHipForward</Data>
+            <Data name="pantsHipForward" target="pants" local="true">Body (Phys).osd\pantsHipForward</Data>
+            <Data name="wingletsHipForward" target="winglets" local="true">Body (Phys).osd\wingletsHipForward</Data>
+            <Data name="coatHipForward" target="coat" local="true">Body (Phys).osd\coatHipForward</Data>
+            <Data name="skirt-centerHipForward" target="skirt-center" local="true">Body (Phys).osd\skirt-centerHipForward</Data>
+            <Data name="skirt-sideHipForward" target="skirt-side" local="true">Body (Phys).osd\skirt-sideHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="beltHips" target="belt" local="true">Body (Phys).osd\beltHips</Data>
+            <Data name="obiHips" target="obi" local="true">Body (Phys).osd\obiHips</Data>
+            <Data name="pantsHips" target="pants" local="true">Body (Phys).osd\pantsHips</Data>
+            <Data name="wingletsHips" target="winglets" local="true">Body (Phys).osd\wingletsHips</Data>
+            <Data name="coatHips" target="coat" local="true">Body (Phys).osd\coatHips</Data>
+            <Data name="skirt-centerHips" target="skirt-center" local="true">Body (Phys).osd\skirt-centerHips</Data>
+            <Data name="skirt-sideHips" target="skirt-side" local="true">Body (Phys).osd\skirt-sideHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="beltHipUpperWidth" target="belt" local="true">Body (Phys).osd\beltHipUpperWidth</Data>
+            <Data name="obiHipUpperWidth" target="obi" local="true">Body (Phys).osd\obiHipUpperWidth</Data>
+            <Data name="pantsHipUpperWidth" target="pants" local="true">Body (Phys).osd\pantsHipUpperWidth</Data>
+            <Data name="wingletsHipUpperWidth" target="winglets" local="true">Body (Phys).osd\wingletsHipUpperWidth</Data>
+            <Data name="coatHipUpperWidth" target="coat" local="true">Body (Phys).osd\coatHipUpperWidth</Data>
+            <Data name="skirt-centerHipUpperWidth" target="skirt-center" local="true">Body (Phys).osd\skirt-centerHipUpperWidth</Data>
+            <Data name="skirt-sideHipUpperWidth" target="skirt-side" local="true">Body (Phys).osd\skirt-sideHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="beltHipCarved" target="belt" local="true">Body (Phys).osd\beltHipCarved</Data>
+            <Data name="pantsHipCarved" target="pants" local="true">Body (Phys).osd\pantsHipCarved</Data>
+            <Data name="coatHipCarved" target="coat" local="true">Body (Phys).osd\coatHipCarved</Data>
+            <Data name="skirt-centerHipCarved" target="skirt-center" local="true">Body (Phys).osd\skirt-centerHipCarved</Data>
+            <Data name="skirt-sideHipCarved" target="skirt-side" local="true">Body (Phys).osd\skirt-sideHipCarved</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="3BAKneeHeight" target="3BA" local="true">Body (Phys).osd\3BAKneeHeight</Data>
+            <Data name="pantsKneeHeight" target="pants" local="true">Body (Phys).osd\pantsKneeHeight</Data>
+            <Data name="skirt-sideKneeHeight" target="skirt-side" local="true">Body (Phys).osd\skirt-sideKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="3BAKneeShape" target="3BA" local="true">Body (Phys).osd\3BAKneeShape</Data>
+            <Data name="pantsKneeShape" target="pants" local="true">Body (Phys).osd\pantsKneeShape</Data>
+            <Data name="skirt-sideKneeShape" target="skirt-side" local="true">Body (Phys).osd\skirt-sideKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="3BALegShapeClassic" target="3BA" local="true">Body (Phys).osd\3BALegShapeClassic</Data>
+            <Data name="pantsLegShapeClassic" target="pants" local="true">Body (Phys).osd\pantsLegShapeClassic</Data>
+            <Data name="skirt-sideLegShapeClassic" target="skirt-side" local="true">Body (Phys).osd\skirt-sideLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="3BALegsThin" target="3BA" local="true">Body (Phys).osd\3BALegsThin</Data>
+            <Data name="pantsLegsThin" target="pants" local="true">Body (Phys).osd\pantsLegsThin</Data>
+            <Data name="coatLegsThin" target="coat" local="true">Body (Phys).osd\coatLegsThin</Data>
+            <Data name="skirt-centerLegsThin" target="skirt-center" local="true">Body (Phys).osd\skirt-centerLegsThin</Data>
+            <Data name="skirt-sideLegsThin" target="skirt-side" local="true">Body (Phys).osd\skirt-sideLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="beltMuscleAbs" target="belt" local="true">Body (Phys).osd\beltMuscleAbs</Data>
+            <Data name="obiMuscleAbs" target="obi" local="true">Body (Phys).osd\obiMuscleAbs</Data>
+            <Data name="pantsMuscleAbs" target="pants" local="true">Body (Phys).osd\pantsMuscleAbs</Data>
+            <Data name="coatMuscleAbs" target="coat" local="true">Body (Phys).osd\coatMuscleAbs</Data>
+            <Data name="skirt-centerMuscleAbs" target="skirt-center" local="true">Body (Phys).osd\skirt-centerMuscleAbs</Data>
+            <Data name="skirt-sideMuscleAbs" target="skirt-side" local="true">Body (Phys).osd\skirt-sideMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="armplatesMuscleArms" target="armplates" local="true">Body (Phys).osd\armplatesMuscleArms</Data>
+            <Data name="obiMuscleArms" target="obi" local="true">Body (Phys).osd\obiMuscleArms</Data>
+            <Data name="wingletsMuscleArms" target="winglets" local="true">Body (Phys).osd\wingletsMuscleArms</Data>
+            <Data name="coatMuscleArms" target="coat" local="true">Body (Phys).osd\coatMuscleArms</Data>
+            <Data name="pauldronMuscleArms" target="pauldron" local="true">Body (Phys).osd\pauldronMuscleArms</Data>
+            <Data name="vambraceMuscleArms" target="vambrace" local="true">Body (Phys).osd\vambraceMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="beltMuscleButt" target="belt" local="true">Body (Phys).osd\beltMuscleButt</Data>
+            <Data name="obiMuscleButt" target="obi" local="true">Body (Phys).osd\obiMuscleButt</Data>
+            <Data name="pantsMuscleButt" target="pants" local="true">Body (Phys).osd\pantsMuscleButt</Data>
+            <Data name="coatMuscleButt" target="coat" local="true">Body (Phys).osd\coatMuscleButt</Data>
+            <Data name="skirt-centerMuscleButt" target="skirt-center" local="true">Body (Phys).osd\skirt-centerMuscleButt</Data>
+            <Data name="skirt-sideMuscleButt" target="skirt-side" local="true">Body (Phys).osd\skirt-sideMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="pantsMuscleLegs" target="pants" local="true">Body (Phys).osd\pantsMuscleLegs</Data>
+            <Data name="coatMuscleLegs" target="coat" local="true">Body (Phys).osd\coatMuscleLegs</Data>
+            <Data name="skirt-centerMuscleLegs" target="skirt-center" local="true">Body (Phys).osd\skirt-centerMuscleLegs</Data>
+            <Data name="skirt-sideMuscleLegs" target="skirt-side" local="true">Body (Phys).osd\skirt-sideMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="wingletsMusclePecs" target="winglets" local="true">Body (Phys).osd\wingletsMusclePecs</Data>
+            <Data name="coatMusclePecs" target="coat" local="true">Body (Phys).osd\coatMusclePecs</Data>
+            <Data name="pauldronMusclePecs" target="pauldron" local="true">Body (Phys).osd\pauldronMusclePecs</Data>
+            <Data name="vambraceMusclePecs" target="vambrace" local="true">Body (Phys).osd\vambraceMusclePecs</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="beltNavelEven" target="belt" local="true">Body (Phys).osd\beltNavelEven</Data>
+            <Data name="obiNavelEven" target="obi" local="true">Body (Phys).osd\obiNavelEven</Data>
+            <Data name="pantsNavelEven" target="pants" local="true">Body (Phys).osd\pantsNavelEven</Data>
+            <Data name="coatNavelEven" target="coat" local="true">Body (Phys).osd\coatNavelEven</Data>
+            <Data name="skirt-centerNavelEven" target="skirt-center" local="true">Body (Phys).osd\skirt-centerNavelEven</Data>
+            <Data name="skirt-sideNavelEven" target="skirt-side" local="true">Body (Phys).osd\skirt-sideNavelEven</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="armplatesNeckSeam" target="armplates" local="true">Body (Phys).osd\armplatesNeckSeam</Data>
+            <Data name="coatNeckSeam" target="coat" local="true">Body (Phys).osd\coatNeckSeam</Data>
+            <Data name="pauldronNeckSeam" target="pauldron" local="true">Body (Phys).osd\pauldronNeckSeam</Data>
+            <Data name="vambraceNeckSeam" target="vambrace" local="true">Body (Phys).osd\vambraceNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="wingletsNipBGone" target="winglets" local="true">Body (Phys).osd\wingletsNipBGone</Data>
+            <Data name="coatNipBGone" target="coat" local="true">Body (Phys).osd\coatNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="obiNippleDistance" target="obi" local="true">Body (Phys).osd\obiNippleDistance</Data>
+            <Data name="wingletsNippleDistance" target="winglets" local="true">Body (Phys).osd\wingletsNippleDistance</Data>
+            <Data name="coatNippleDistance" target="coat" local="true">Body (Phys).osd\coatNippleDistance</Data>
+            <Data name="vambraceNippleDistance" target="vambrace" local="true">Body (Phys).osd\vambraceNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="obiNippleDown" target="obi" local="true">Body (Phys).osd\obiNippleDown</Data>
+            <Data name="wingletsNippleDown" target="winglets" local="true">Body (Phys).osd\wingletsNippleDown</Data>
+            <Data name="coatNippleDown" target="coat" local="true">Body (Phys).osd\coatNippleDown</Data>
+            <Data name="vambraceNippleDown" target="vambrace" local="true">Body (Phys).osd\vambraceNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="coatNippleLength" target="coat" local="true">Body (Phys).osd\coatNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="coatNippleManga" target="coat" local="true">Body (Phys).osd\coatNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="wingletsNipplePerkiness" target="winglets" local="true">Body (Phys).osd\wingletsNipplePerkiness</Data>
+            <Data name="coatNipplePerkiness" target="coat" local="true">Body (Phys).osd\coatNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="wingletsNipplePerkManga" target="winglets" local="true">Body (Phys).osd\wingletsNipplePerkManga</Data>
+            <Data name="coatNipplePerkManga" target="coat" local="true">Body (Phys).osd\coatNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="obiNippleSize" target="obi" local="true">Body (Phys).osd\obiNippleSize</Data>
+            <Data name="wingletsNippleSize" target="winglets" local="true">Body (Phys).osd\wingletsNippleSize</Data>
+            <Data name="coatNippleSize" target="coat" local="true">Body (Phys).osd\coatNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="wingletsNippleTip" target="winglets" local="true">Body (Phys).osd\wingletsNippleTip</Data>
+            <Data name="coatNippleTip" target="coat" local="true">Body (Phys).osd\coatNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="coatNippleTipManga" target="coat" local="true">Body (Phys).osd\coatNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="obiNippleUp" target="obi" local="true">Body (Phys).osd\obiNippleUp</Data>
+            <Data name="wingletsNippleUp" target="winglets" local="true">Body (Phys).osd\wingletsNippleUp</Data>
+            <Data name="coatNippleUp" target="coat" local="true">Body (Phys).osd\coatNippleUp</Data>
+            <Data name="pauldronNippleUp" target="pauldron" local="true">Body (Phys).osd\pauldronNippleUp</Data>
+            <Data name="vambraceNippleUp" target="vambrace" local="true">Body (Phys).osd\vambraceNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="beltPregnancyBelly" target="belt" local="true">Body (Phys).osd\beltPregnancyBelly</Data>
+            <Data name="obiPregnancyBelly" target="obi" local="true">Body (Phys).osd\obiPregnancyBelly</Data>
+            <Data name="pantsPregnancyBelly" target="pants" local="true">Body (Phys).osd\pantsPregnancyBelly</Data>
+            <Data name="wingletsPregnancyBelly" target="winglets" local="true">Body (Phys).osd\wingletsPregnancyBelly</Data>
+            <Data name="coatPregnancyBelly" target="coat" local="true">Body (Phys).osd\coatPregnancyBelly</Data>
+            <Data name="pauldronPregnancyBelly" target="pauldron" local="true">Body (Phys).osd\pauldronPregnancyBelly</Data>
+            <Data name="vambracePregnancyBelly" target="vambrace" local="true">Body (Phys).osd\vambracePregnancyBelly</Data>
+            <Data name="skirt-centerPregnancyBelly" target="skirt-center" local="true">Body (Phys).osd\skirt-centerPregnancyBelly</Data>
+            <Data name="skirt-sidePregnancyBelly" target="skirt-side" local="true">Body (Phys).osd\skirt-sidePregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="obiPushUp" target="obi" local="true">Body (Phys).osd\obiPushUp</Data>
+            <Data name="wingletsPushUp" target="winglets" local="true">Body (Phys).osd\wingletsPushUp</Data>
+            <Data name="coatPushUp" target="coat" local="true">Body (Phys).osd\coatPushUp</Data>
+            <Data name="pauldronPushUp" target="pauldron" local="true">Body (Phys).osd\pauldronPushUp</Data>
+            <Data name="vambracePushUp" target="vambrace" local="true">Body (Phys).osd\vambracePushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="beltRibsProminance" target="belt" local="true">Body (Phys).osd\beltRibsProminance</Data>
+            <Data name="obiRibsProminance" target="obi" local="true">Body (Phys).osd\obiRibsProminance</Data>
+            <Data name="wingletsRibsProminance" target="winglets" local="true">Body (Phys).osd\wingletsRibsProminance</Data>
+            <Data name="coatRibsProminance" target="coat" local="true">Body (Phys).osd\coatRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="beltRoundAss" target="belt" local="true">Body (Phys).osd\beltRoundAss</Data>
+            <Data name="obiRoundAss" target="obi" local="true">Body (Phys).osd\obiRoundAss</Data>
+            <Data name="pantsRoundAss" target="pants" local="true">Body (Phys).osd\pantsRoundAss</Data>
+            <Data name="coatRoundAss" target="coat" local="true">Body (Phys).osd\coatRoundAss</Data>
+            <Data name="skirt-centerRoundAss" target="skirt-center" local="true">Body (Phys).osd\skirt-centerRoundAss</Data>
+            <Data name="skirt-sideRoundAss" target="skirt-side" local="true">Body (Phys).osd\skirt-sideRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="armplatesShoulderSmooth" target="armplates" local="true">Body (Phys).osd\armplatesShoulderSmooth</Data>
+            <Data name="wingletsShoulderSmooth" target="winglets" local="true">Body (Phys).osd\wingletsShoulderSmooth</Data>
+            <Data name="coatShoulderSmooth" target="coat" local="true">Body (Phys).osd\coatShoulderSmooth</Data>
+            <Data name="pauldronShoulderSmooth" target="pauldron" local="true">Body (Phys).osd\pauldronShoulderSmooth</Data>
+            <Data name="vambraceShoulderSmooth" target="vambrace" local="true">Body (Phys).osd\vambraceShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="beltSlimThighs" target="belt" local="true">Body (Phys).osd\beltSlimThighs</Data>
+            <Data name="obiSlimThighs" target="obi" local="true">Body (Phys).osd\obiSlimThighs</Data>
+            <Data name="pantsSlimThighs" target="pants" local="true">Body (Phys).osd\pantsSlimThighs</Data>
+            <Data name="coatSlimThighs" target="coat" local="true">Body (Phys).osd\coatSlimThighs</Data>
+            <Data name="skirt-centerSlimThighs" target="skirt-center" local="true">Body (Phys).osd\skirt-centerSlimThighs</Data>
+            <Data name="skirt-sideSlimThighs" target="skirt-side" local="true">Body (Phys).osd\skirt-sideSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="beltSternumDepth" target="belt" local="true">Body (Phys).osd\beltSternumDepth</Data>
+            <Data name="obiSternumDepth" target="obi" local="true">Body (Phys).osd\obiSternumDepth</Data>
+            <Data name="coatSternumDepth" target="coat" local="true">Body (Phys).osd\coatSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="beltSternumHeight" target="belt" local="true">Body (Phys).osd\beltSternumHeight</Data>
+            <Data name="obiSternumHeight" target="obi" local="true">Body (Phys).osd\obiSternumHeight</Data>
+            <Data name="wingletsSternumHeight" target="winglets" local="true">Body (Phys).osd\wingletsSternumHeight</Data>
+            <Data name="coatSternumHeight" target="coat" local="true">Body (Phys).osd\coatSternumHeight</Data>
+            <Data name="skirt-centerSternumHeight" target="skirt-center" local="true">Body (Phys).osd\skirt-centerSternumHeight</Data>
+            <Data name="skirt-sideSternumHeight" target="skirt-side" local="true">Body (Phys).osd\skirt-sideSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="pantsThighs" target="pants" local="true">Body (Phys).osd\pantsThighs</Data>
+            <Data name="coatThighs" target="coat" local="true">Body (Phys).osd\coatThighs</Data>
+            <Data name="skirt-centerThighs" target="skirt-center" local="true">Body (Phys).osd\skirt-centerThighs</Data>
+            <Data name="skirt-sideThighs" target="skirt-side" local="true">Body (Phys).osd\skirt-sideThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="beltTummyTuck" target="belt" local="true">Body (Phys).osd\beltTummyTuck</Data>
+            <Data name="obiTummyTuck" target="obi" local="true">Body (Phys).osd\obiTummyTuck</Data>
+            <Data name="pantsTummyTuck" target="pants" local="true">Body (Phys).osd\pantsTummyTuck</Data>
+            <Data name="coatTummyTuck" target="coat" local="true">Body (Phys).osd\coatTummyTuck</Data>
+            <Data name="skirt-centerTummyTuck" target="skirt-center" local="true">Body (Phys).osd\skirt-centerTummyTuck</Data>
+            <Data name="skirt-sideTummyTuck" target="skirt-side" local="true">Body (Phys).osd\skirt-sideTummyTuck</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="beltWaistHeight" target="belt" local="true">Body (Phys).osd\beltWaistHeight</Data>
+            <Data name="obiWaistHeight" target="obi" local="true">Body (Phys).osd\obiWaistHeight</Data>
+            <Data name="pantsWaistHeight" target="pants" local="true">Body (Phys).osd\pantsWaistHeight</Data>
+            <Data name="wingletsWaistHeight" target="winglets" local="true">Body (Phys).osd\wingletsWaistHeight</Data>
+            <Data name="coatWaistHeight" target="coat" local="true">Body (Phys).osd\coatWaistHeight</Data>
+            <Data name="skirt-centerWaistHeight" target="skirt-center" local="true">Body (Phys).osd\skirt-centerWaistHeight</Data>
+            <Data name="skirt-sideWaistHeight" target="skirt-side" local="true">Body (Phys).osd\skirt-sideWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="beltWideWaistLine" target="belt" local="true">Body (Phys).osd\beltWideWaistLine</Data>
+            <Data name="obiWideWaistLine" target="obi" local="true">Body (Phys).osd\obiWideWaistLine</Data>
+            <Data name="pantsWideWaistLine" target="pants" local="true">Body (Phys).osd\pantsWideWaistLine</Data>
+            <Data name="wingletsWideWaistLine" target="winglets" local="true">Body (Phys).osd\wingletsWideWaistLine</Data>
+            <Data name="coatWideWaistLine" target="coat" local="true">Body (Phys).osd\coatWideWaistLine</Data>
+            <Data name="skirt-centerWideWaistLine" target="skirt-center" local="true">Body (Phys).osd\skirt-centerWideWaistLine</Data>
+            <Data name="skirt-sideWideWaistLine" target="skirt-side" local="true">Body (Phys).osd\skirt-sideWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="armplatesWristSize" target="armplates" local="true">Body (Phys).osd\armplatesWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="3BA7B Lower" target="3BA" local="true">Body (Phys).osd\3BA7B Lower</Data>
+            <Data name="belt7B Lower" target="belt" local="true">Body (Phys).osd\belt7B Lower</Data>
+            <Data name="obi7B Lower" target="obi" local="true">Body (Phys).osd\obi7B Lower</Data>
+            <Data name="pants7B Lower" target="pants" local="true">Body (Phys).osd\pants7B Lower</Data>
+            <Data name="winglets7B Lower" target="winglets" local="true">Body (Phys).osd\winglets7B Lower</Data>
+            <Data name="coat7B Lower" target="coat" local="true">Body (Phys).osd\coat7B Lower</Data>
+            <Data name="skirt-center7B Lower" target="skirt-center" local="true">Body (Phys).osd\skirt-center7B Lower</Data>
+            <Data name="skirt-side7B Lower" target="skirt-side" local="true">Body (Phys).osd\skirt-side7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="armplates7B Upper" target="armplates" local="true">Body (Phys).osd\armplates7B Upper</Data>
+            <Data name="belt7B Upper" target="belt" local="true">Body (Phys).osd\belt7B Upper</Data>
+            <Data name="obi7B Upper" target="obi" local="true">Body (Phys).osd\obi7B Upper</Data>
+            <Data name="pants7B Upper" target="pants" local="true">Body (Phys).osd\pants7B Upper</Data>
+            <Data name="winglets7B Upper" target="winglets" local="true">Body (Phys).osd\winglets7B Upper</Data>
+            <Data name="coat7B Upper" target="coat" local="true">Body (Phys).osd\coat7B Upper</Data>
+            <Data name="pauldron7B Upper" target="pauldron" local="true">Body (Phys).osd\pauldron7B Upper</Data>
+            <Data name="vambrace7B Upper" target="vambrace" local="true">Body (Phys).osd\vambrace7B Upper</Data>
+            <Data name="skirt-center7B Upper" target="skirt-center" local="true">Body (Phys).osd\skirt-center7B Upper</Data>
+            <Data name="skirt-side7B Upper" target="skirt-side" local="true">Body (Phys).osd\skirt-side7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="3BAVanillaSSEHi" target="3BA" local="true">Body (Phys).osd\3BAVanillaSSEHi</Data>
+            <Data name="armplatesVanillaSSEHi" target="armplates" local="true">Body (Phys).osd\armplatesVanillaSSEHi</Data>
+            <Data name="beltVanillaSSEHi" target="belt" local="true">Body (Phys).osd\beltVanillaSSEHi</Data>
+            <Data name="obiVanillaSSEHi" target="obi" local="true">Body (Phys).osd\obiVanillaSSEHi</Data>
+            <Data name="pantsVanillaSSEHi" target="pants" local="true">Body (Phys).osd\pantsVanillaSSEHi</Data>
+            <Data name="wingletsVanillaSSEHi" target="winglets" local="true">Body (Phys).osd\wingletsVanillaSSEHi</Data>
+            <Data name="coatVanillaSSEHi" target="coat" local="true">Body (Phys).osd\coatVanillaSSEHi</Data>
+            <Data name="pauldronVanillaSSEHi" target="pauldron" local="true">Body (Phys).osd\pauldronVanillaSSEHi</Data>
+            <Data name="vambraceVanillaSSEHi" target="vambrace" local="true">Body (Phys).osd\vambraceVanillaSSEHi</Data>
+            <Data name="skirt-centerVanillaSSEHi" target="skirt-center" local="true">Body (Phys).osd\skirt-centerVanillaSSEHi</Data>
+            <Data name="skirt-sideVanillaSSEHi" target="skirt-side" local="true">Body (Phys).osd\skirt-sideVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="3BAVanillaSSELo" target="3BA" local="true">Body (Phys).osd\3BAVanillaSSELo</Data>
+            <Data name="armplatesVanillaSSELo" target="armplates" local="true">Body (Phys).osd\armplatesVanillaSSELo</Data>
+            <Data name="beltVanillaSSELo" target="belt" local="true">Body (Phys).osd\beltVanillaSSELo</Data>
+            <Data name="obiVanillaSSELo" target="obi" local="true">Body (Phys).osd\obiVanillaSSELo</Data>
+            <Data name="pantsVanillaSSELo" target="pants" local="true">Body (Phys).osd\pantsVanillaSSELo</Data>
+            <Data name="wingletsVanillaSSELo" target="winglets" local="true">Body (Phys).osd\wingletsVanillaSSELo</Data>
+            <Data name="coatVanillaSSELo" target="coat" local="true">Body (Phys).osd\coatVanillaSSELo</Data>
+            <Data name="pauldronVanillaSSELo" target="pauldron" local="true">Body (Phys).osd\pauldronVanillaSSELo</Data>
+            <Data name="vambraceVanillaSSELo" target="vambrace" local="true">Body (Phys).osd\vambraceVanillaSSELo</Data>
+            <Data name="skirt-centerVanillaSSELo" target="skirt-center" local="true">Body (Phys).osd\skirt-centerVanillaSSELo</Data>
+            <Data name="skirt-sideVanillaSSELo" target="skirt-side" local="true">Body (Phys).osd\skirt-sideVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="3BAOldBaseShape" target="3BA" local="true">Body (Phys).osd\3BAOldBaseShape</Data>
+            <Data name="armplatesOldBaseShape" target="armplates" local="true">Body (Phys).osd\armplatesOldBaseShape</Data>
+            <Data name="beltOldBaseShape" target="belt" local="true">Body (Phys).osd\beltOldBaseShape</Data>
+            <Data name="obiOldBaseShape" target="obi" local="true">Body (Phys).osd\obiOldBaseShape</Data>
+            <Data name="pantsOldBaseShape" target="pants" local="true">Body (Phys).osd\pantsOldBaseShape</Data>
+            <Data name="wingletsOldBaseShape" target="winglets" local="true">Body (Phys).osd\wingletsOldBaseShape</Data>
+            <Data name="coatOldBaseShape" target="coat" local="true">Body (Phys).osd\coatOldBaseShape</Data>
+            <Data name="pauldronOldBaseShape" target="pauldron" local="true">Body (Phys).osd\pauldronOldBaseShape</Data>
+            <Data name="vambraceOldBaseShape" target="vambrace" local="true">Body (Phys).osd\vambraceOldBaseShape</Data>
+            <Data name="skirt-centerOldBaseShape" target="skirt-center" local="true">Body (Phys).osd\skirt-centerOldBaseShape</Data>
+            <Data name="skirt-sideOldBaseShape" target="skirt-side" local="true">Body (Phys).osd\skirt-sideOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="wingletsArms" target="winglets" local="true">Body (Phys).osd\wingletsArms</Data>
+            <Data name="coatArms" target="coat" local="true">Body (Phys).osd\coatArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="wingletsBreastFlatness" target="winglets" local="true">Body (Phys).osd\wingletsBreastFlatness</Data>
+            <Data name="coatBreastFlatness" target="coat" local="true">Body (Phys).osd\coatBreastFlatness</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="coatHipBone" target="coat" local="true">Body (Phys).osd\coatHipBone</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="coatShoulderTweak" target="coat" local="true">Body (Phys).osd\coatShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="wingletsShoulderWidth" target="winglets" local="true">Body (Phys).osd\wingletsShoulderWidth</Data>
+            <Data name="coatShoulderWidth" target="coat" local="true">Body (Phys).osd\coatShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="wingletsWaist" target="winglets" local="true">Body (Phys).osd\wingletsWaist</Data>
+            <Data name="coatWaist" target="coat" local="true">Body (Phys).osd\coatWaist</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="obiArmpitShape_v2" target="obi" local="true">Body (Phys).osd\obiArmpitShape_v2</Data>
+            <Data name="sleevesArmpitShape_v2" target="sleeves" local="true">Body (Phys).osd\sleevesArmpitShape_v2</Data>
+            <Data name="wingletsArmpitShape_v2" target="winglets" local="true">Body (Phys).osd\wingletsArmpitShape_v2</Data>
+            <Data name="coatArmpitShape_v2" target="coat" local="true">Body (Phys).osd\coatArmpitShape_v2</Data>
+            <Data name="vambraceArmpitShape_v2" target="vambrace" local="true">Body (Phys).osd\vambraceArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="obiAreolaPull_v2" target="obi" local="true">Body (Phys).osd\obiAreolaPull_v2</Data>
+            <Data name="sleevesAreolaPull_v2" target="sleeves" local="true">Body (Phys).osd\sleevesAreolaPull_v2</Data>
+            <Data name="wingletsAreolaPull_v2" target="winglets" local="true">Body (Phys).osd\wingletsAreolaPull_v2</Data>
+            <Data name="coatAreolaPull_v2" target="coat" local="true">Body (Phys).osd\coatAreolaPull_v2</Data>
+            <Data name="vambraceAreolaPull_v2" target="vambrace" local="true">Body (Phys).osd\vambraceAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="beltBackValley_v2" target="belt" local="true">Body (Phys).osd\beltBackValley_v2</Data>
+            <Data name="obiBackValley_v2" target="obi" local="true">Body (Phys).osd\obiBackValley_v2</Data>
+            <Data name="pantsBackValley_v2" target="pants" local="true">Body (Phys).osd\pantsBackValley_v2</Data>
+            <Data name="coatBackValley_v2" target="coat" local="true">Body (Phys).osd\coatBackValley_v2</Data>
+            <Data name="skirt-centerBackValley_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBackValley_v2</Data>
+            <Data name="skirt-sideBackValley_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="armplatesBackWing_v2" target="armplates" local="true">Body (Phys).osd\armplatesBackWing_v2</Data>
+            <Data name="sleevesBackWing_v2" target="sleeves" local="true">Body (Phys).osd\sleevesBackWing_v2</Data>
+            <Data name="wingletsBackWing_v2" target="winglets" local="true">Body (Phys).osd\wingletsBackWing_v2</Data>
+            <Data name="coatBackWing_v2" target="coat" local="true">Body (Phys).osd\coatBackWing_v2</Data>
+            <Data name="pauldronBackWing_v2" target="pauldron" local="true">Body (Phys).osd\pauldronBackWing_v2</Data>
+            <Data name="vambraceBackWing_v2" target="vambrace" local="true">Body (Phys).osd\vambraceBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="beltBellyFrontUpFat_v2" target="belt" local="true">Body (Phys).osd\beltBellyFrontUpFat_v2</Data>
+            <Data name="obiBellyFrontUpFat_v2" target="obi" local="true">Body (Phys).osd\obiBellyFrontUpFat_v2</Data>
+            <Data name="pantsBellyFrontUpFat_v2" target="pants" local="true">Body (Phys).osd\pantsBellyFrontUpFat_v2</Data>
+            <Data name="coatBellyFrontUpFat_v2" target="coat" local="true">Body (Phys).osd\coatBellyFrontUpFat_v2</Data>
+            <Data name="skirt-centerBellyFrontUpFat_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBellyFrontUpFat_v2</Data>
+            <Data name="skirt-sideBellyFrontUpFat_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="beltBellyFrontDownFat_v2" target="belt" local="true">Body (Phys).osd\beltBellyFrontDownFat_v2</Data>
+            <Data name="obiBellyFrontDownFat_v2" target="obi" local="true">Body (Phys).osd\obiBellyFrontDownFat_v2</Data>
+            <Data name="pantsBellyFrontDownFat_v2" target="pants" local="true">Body (Phys).osd\pantsBellyFrontDownFat_v2</Data>
+            <Data name="coatBellyFrontDownFat_v2" target="coat" local="true">Body (Phys).osd\coatBellyFrontDownFat_v2</Data>
+            <Data name="skirt-centerBellyFrontDownFat_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBellyFrontDownFat_v2</Data>
+            <Data name="skirt-sideBellyFrontDownFat_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="beltBellySideUpFat_v2" target="belt" local="true">Body (Phys).osd\beltBellySideUpFat_v2</Data>
+            <Data name="obiBellySideUpFat_v2" target="obi" local="true">Body (Phys).osd\obiBellySideUpFat_v2</Data>
+            <Data name="pantsBellySideUpFat_v2" target="pants" local="true">Body (Phys).osd\pantsBellySideUpFat_v2</Data>
+            <Data name="coatBellySideUpFat_v2" target="coat" local="true">Body (Phys).osd\coatBellySideUpFat_v2</Data>
+            <Data name="skirt-centerBellySideUpFat_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBellySideUpFat_v2</Data>
+            <Data name="skirt-sideBellySideUpFat_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="beltBellySideDownFat_v2" target="belt" local="true">Body (Phys).osd\beltBellySideDownFat_v2</Data>
+            <Data name="obiBellySideDownFat_v2" target="obi" local="true">Body (Phys).osd\obiBellySideDownFat_v2</Data>
+            <Data name="pantsBellySideDownFat_v2" target="pants" local="true">Body (Phys).osd\pantsBellySideDownFat_v2</Data>
+            <Data name="coatBellySideDownFat_v2" target="coat" local="true">Body (Phys).osd\coatBellySideDownFat_v2</Data>
+            <Data name="skirt-centerBellySideDownFat_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBellySideDownFat_v2</Data>
+            <Data name="skirt-sideBellySideDownFat_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="beltBellyUnder_v2" target="belt" local="true">Body (Phys).osd\beltBellyUnder_v2</Data>
+            <Data name="pantsBellyUnder_v2" target="pants" local="true">Body (Phys).osd\pantsBellyUnder_v2</Data>
+            <Data name="coatBellyUnder_v2" target="coat" local="true">Body (Phys).osd\coatBellyUnder_v2</Data>
+            <Data name="skirt-centerBellyUnder_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerBellyUnder_v2</Data>
+            <Data name="skirt-sideBellyUnder_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="obiBreastsConverage_v2" target="obi" local="true">Body (Phys).osd\obiBreastsConverage_v2</Data>
+            <Data name="sleevesBreastsConverage_v2" target="sleeves" local="true">Body (Phys).osd\sleevesBreastsConverage_v2</Data>
+            <Data name="wingletsBreastsConverage_v2" target="winglets" local="true">Body (Phys).osd\wingletsBreastsConverage_v2</Data>
+            <Data name="coatBreastsConverage_v2" target="coat" local="true">Body (Phys).osd\coatBreastsConverage_v2</Data>
+            <Data name="pauldronBreastsConverage_v2" target="pauldron" local="true">Body (Phys).osd\pauldronBreastsConverage_v2</Data>
+            <Data name="vambraceBreastsConverage_v2" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="obiBreastsPressed_v2" target="obi" local="true">Body (Phys).osd\obiBreastsPressed_v2</Data>
+            <Data name="sleevesBreastsPressed_v2" target="sleeves" local="true">Body (Phys).osd\sleevesBreastsPressed_v2</Data>
+            <Data name="wingletsBreastsPressed_v2" target="winglets" local="true">Body (Phys).osd\wingletsBreastsPressed_v2</Data>
+            <Data name="coatBreastsPressed_v2" target="coat" local="true">Body (Phys).osd\coatBreastsPressed_v2</Data>
+            <Data name="vambraceBreastsPressed_v2" target="vambrace" local="true">Body (Phys).osd\vambraceBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="pantsButtSaggy_v2" target="pants" local="true">Body (Phys).osd\pantsButtSaggy_v2</Data>
+            <Data name="coatButtSaggy_v2" target="coat" local="true">Body (Phys).osd\coatButtSaggy_v2</Data>
+            <Data name="skirt-centerButtSaggy_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtSaggy_v2</Data>
+            <Data name="skirt-sideButtSaggy_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="beltButtPressed_v2" target="belt" local="true">Body (Phys).osd\beltButtPressed_v2</Data>
+            <Data name="obiButtPressed_v2" target="obi" local="true">Body (Phys).osd\obiButtPressed_v2</Data>
+            <Data name="pantsButtPressed_v2" target="pants" local="true">Body (Phys).osd\pantsButtPressed_v2</Data>
+            <Data name="coatButtPressed_v2" target="coat" local="true">Body (Phys).osd\coatButtPressed_v2</Data>
+            <Data name="skirt-centerButtPressed_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtPressed_v2</Data>
+            <Data name="skirt-sideButtPressed_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="pantsButtNarrow_v2" target="pants" local="true">Body (Phys).osd\pantsButtNarrow_v2</Data>
+            <Data name="coatButtNarrow_v2" target="coat" local="true">Body (Phys).osd\coatButtNarrow_v2</Data>
+            <Data name="skirt-centerButtNarrow_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerButtNarrow_v2</Data>
+            <Data name="skirt-sideButtNarrow_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="3BACalfFBThicc_v2" target="3BA" local="true">Body (Phys).osd\3BACalfFBThicc_v2</Data>
+            <Data name="pantsCalfFBThicc_v2" target="pants" local="true">Body (Phys).osd\pantsCalfFBThicc_v2</Data>
+            <Data name="skirt-sideCalfFBThicc_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="armplatesClavicle_v2" target="armplates" local="true">Body (Phys).osd\armplatesClavicle_v2</Data>
+            <Data name="sleevesClavicle_v2" target="sleeves" local="true">Body (Phys).osd\sleevesClavicle_v2</Data>
+            <Data name="coatClavicle_v2" target="coat" local="true">Body (Phys).osd\coatClavicle_v2</Data>
+            <Data name="pauldronClavicle_v2" target="pauldron" local="true">Body (Phys).osd\pauldronClavicle_v2</Data>
+            <Data name="vambraceClavicle_v2" target="vambrace" local="true">Body (Phys).osd\vambraceClavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="beltHipNarrow_v2" target="belt" local="true">Body (Phys).osd\beltHipNarrow_v2</Data>
+            <Data name="obiHipNarrow_v2" target="obi" local="true">Body (Phys).osd\obiHipNarrow_v2</Data>
+            <Data name="pantsHipNarrow_v2" target="pants" local="true">Body (Phys).osd\pantsHipNarrow_v2</Data>
+            <Data name="coatHipNarrow_v2" target="coat" local="true">Body (Phys).osd\coatHipNarrow_v2</Data>
+            <Data name="skirt-centerHipNarrow_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerHipNarrow_v2</Data>
+            <Data name="skirt-sideHipNarrow_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="pantsKneeTogether_v2" target="pants" local="true">Body (Phys).osd\pantsKneeTogether_v2</Data>
+            <Data name="skirt-sideKneeTogether_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="armplatesMuscleBack_v2" target="armplates" local="true">Body (Phys).osd\armplatesMuscleBack_v2</Data>
+            <Data name="beltMuscleBack_v2" target="belt" local="true">Body (Phys).osd\beltMuscleBack_v2</Data>
+            <Data name="obiMuscleBack_v2" target="obi" local="true">Body (Phys).osd\obiMuscleBack_v2</Data>
+            <Data name="pantsMuscleBack_v2" target="pants" local="true">Body (Phys).osd\pantsMuscleBack_v2</Data>
+            <Data name="sleevesMuscleBack_v2" target="sleeves" local="true">Body (Phys).osd\sleevesMuscleBack_v2</Data>
+            <Data name="wingletsMuscleBack_v2" target="winglets" local="true">Body (Phys).osd\wingletsMuscleBack_v2</Data>
+            <Data name="coatMuscleBack_v2" target="coat" local="true">Body (Phys).osd\coatMuscleBack_v2</Data>
+            <Data name="pauldronMuscleBack_v2" target="pauldron" local="true">Body (Phys).osd\pauldronMuscleBack_v2</Data>
+            <Data name="vambraceMuscleBack_v2" target="vambrace" local="true">Body (Phys).osd\vambraceMuscleBack_v2</Data>
+            <Data name="skirt-centerMuscleBack_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerMuscleBack_v2</Data>
+            <Data name="skirt-sideMuscleBack_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="beltMuscleMoreAbs_v2" target="belt" local="true">Body (Phys).osd\beltMuscleMoreAbs_v2</Data>
+            <Data name="obiMuscleMoreAbs_v2" target="obi" local="true">Body (Phys).osd\obiMuscleMoreAbs_v2</Data>
+            <Data name="pantsMuscleMoreAbs_v2" target="pants" local="true">Body (Phys).osd\pantsMuscleMoreAbs_v2</Data>
+            <Data name="sleevesMuscleMoreAbs_v2" target="sleeves" local="true">Body (Phys).osd\sleevesMuscleMoreAbs_v2</Data>
+            <Data name="wingletsMuscleMoreAbs_v2" target="winglets" local="true">Body (Phys).osd\wingletsMuscleMoreAbs_v2</Data>
+            <Data name="coatMuscleMoreAbs_v2" target="coat" local="true">Body (Phys).osd\coatMuscleMoreAbs_v2</Data>
+            <Data name="skirt-centerMuscleMoreAbs_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerMuscleMoreAbs_v2</Data>
+            <Data name="skirt-sideMuscleMoreAbs_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="armplatesMuscleMoreArms_v2" target="armplates" local="true">Body (Phys).osd\armplatesMuscleMoreArms_v2</Data>
+            <Data name="sleevesMuscleMoreArms_v2" target="sleeves" local="true">Body (Phys).osd\sleevesMuscleMoreArms_v2</Data>
+            <Data name="wingletsMuscleMoreArms_v2" target="winglets" local="true">Body (Phys).osd\wingletsMuscleMoreArms_v2</Data>
+            <Data name="coatMuscleMoreArms_v2" target="coat" local="true">Body (Phys).osd\coatMuscleMoreArms_v2</Data>
+            <Data name="pauldronMuscleMoreArms_v2" target="pauldron" local="true">Body (Phys).osd\pauldronMuscleMoreArms_v2</Data>
+            <Data name="vambraceMuscleMoreArms_v2" target="vambrace" local="true">Body (Phys).osd\vambraceMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="3BAMuscleMoreLegs_v2" target="3BA" local="true">Body (Phys).osd\3BAMuscleMoreLegs_v2</Data>
+            <Data name="beltMuscleMoreLegs_v2" target="belt" local="true">Body (Phys).osd\beltMuscleMoreLegs_v2</Data>
+            <Data name="pantsMuscleMoreLegs_v2" target="pants" local="true">Body (Phys).osd\pantsMuscleMoreLegs_v2</Data>
+            <Data name="coatMuscleMoreLegs_v2" target="coat" local="true">Body (Phys).osd\coatMuscleMoreLegs_v2</Data>
+            <Data name="skirt-centerMuscleMoreLegs_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerMuscleMoreLegs_v2</Data>
+            <Data name="skirt-sideMuscleMoreLegs_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NipplePuffy_v2" invert="false" small="0" big="0">
+            <Data name="coatNipplePuffy_v2" target="coat" local="true">Body (Phys).osd\coatNipplePuffy_v2</Data>
+        </Slider>
+        <Slider name="NippleShy_v2" invert="false" small="0" big="0">
+            <Data name="wingletsNippleShy_v2" target="winglets" local="true">Body (Phys).osd\wingletsNippleShy_v2</Data>
+            <Data name="coatNippleShy_v2" target="coat" local="true">Body (Phys).osd\coatNippleShy_v2</Data>
+        </Slider>
+        <Slider name="NippleThicc_v2" invert="false" small="0" big="0">
+            <Data name="coatNippleThicc_v2" target="coat" local="true">Body (Phys).osd\coatNippleThicc_v2</Data>
+        </Slider>
+        <Slider name="NippleInvert_v2" invert="false" small="0" big="0">
+            <Data name="wingletsNippleInvert_v2" target="winglets" local="true">Body (Phys).osd\wingletsNippleInvert_v2</Data>
+            <Data name="coatNippleInvert_v2" target="coat" local="true">Body (Phys).osd\coatNippleInvert_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash1_v2" invert="false" small="0" big="0">
+            <Data name="coatNippleSquash1_v2" target="coat" local="true">Body (Phys).osd\coatNippleSquash1_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash2_v2" invert="false" small="0" big="0">
+            <Data name="coatNippleSquash2_v2" target="coat" local="true">Body (Phys).osd\coatNippleSquash2_v2</Data>
+        </Slider>
+        <Slider name="NippleBump_v2" invert="false" small="0" big="0">
+            <Data name="coatNippleBump_v2" target="coat" local="true">Body (Phys).osd\coatNippleBump_v2</Data>
+        </Slider>
+        <Slider name="NippleTube_v2" invert="false" small="0" big="0">
+            <Data name="coatNippleTube_v2" target="coat" local="true">Body (Phys).osd\coatNippleTube_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="beltRibsMore_v2" target="belt" local="true">Body (Phys).osd\beltRibsMore_v2</Data>
+            <Data name="obiRibsMore_v2" target="obi" local="true">Body (Phys).osd\obiRibsMore_v2</Data>
+            <Data name="pantsRibsMore_v2" target="pants" local="true">Body (Phys).osd\pantsRibsMore_v2</Data>
+            <Data name="wingletsRibsMore_v2" target="winglets" local="true">Body (Phys).osd\wingletsRibsMore_v2</Data>
+            <Data name="coatRibsMore_v2" target="coat" local="true">Body (Phys).osd\coatRibsMore_v2</Data>
+            <Data name="skirt-centerRibsMore_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerRibsMore_v2</Data>
+            <Data name="skirt-sideRibsMore_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="pantsThighOutsideThicc_v2" target="pants" local="true">Body (Phys).osd\pantsThighOutsideThicc_v2</Data>
+            <Data name="coatThighOutsideThicc_v2" target="coat" local="true">Body (Phys).osd\coatThighOutsideThicc_v2</Data>
+            <Data name="skirt-centerThighOutsideThicc_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerThighOutsideThicc_v2</Data>
+            <Data name="skirt-sideThighOutsideThicc_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="pantsThighInsideThicc_v2" target="pants" local="true">Body (Phys).osd\pantsThighInsideThicc_v2</Data>
+            <Data name="skirt-centerThighInsideThicc_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerThighInsideThicc_v2</Data>
+            <Data name="skirt-sideThighInsideThicc_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="pantsThighFBThicc_v2" target="pants" local="true">Body (Phys).osd\pantsThighFBThicc_v2</Data>
+            <Data name="coatThighFBThicc_v2" target="coat" local="true">Body (Phys).osd\coatThighFBThicc_v2</Data>
+            <Data name="skirt-centerThighFBThicc_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerThighFBThicc_v2</Data>
+            <Data name="skirt-sideThighFBThicc_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="pantsLegSpread_v2" target="pants" local="true">Body (Phys).osd\pantsLegSpread_v2</Data>
+            <Data name="coatLegSpread_v2" target="coat" local="true">Body (Phys).osd\coatLegSpread_v2</Data>
+            <Data name="skirt-centerLegSpread_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerLegSpread_v2</Data>
+            <Data name="skirt-sideLegSpread_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideLegSpread_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="beltUNPHip_v2" target="belt" local="true">Body (Phys).osd\beltUNPHip_v2</Data>
+            <Data name="obiUNPHip_v2" target="obi" local="true">Body (Phys).osd\obiUNPHip_v2</Data>
+            <Data name="pantsUNPHip_v2" target="pants" local="true">Body (Phys).osd\pantsUNPHip_v2</Data>
+            <Data name="wingletsUNPHip_v2" target="winglets" local="true">Body (Phys).osd\wingletsUNPHip_v2</Data>
+            <Data name="coatUNPHip_v2" target="coat" local="true">Body (Phys).osd\coatUNPHip_v2</Data>
+            <Data name="skirt-centerUNPHip_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerUNPHip_v2</Data>
+            <Data name="skirt-sideUNPHip_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideUNPHip_v2</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="3BA7BLeg_v2" target="3BA" local="true">Body (Phys).osd\3BA7BLeg_v2</Data>
+            <Data name="pants7BLeg_v2" target="pants" local="true">Body (Phys).osd\pants7BLeg_v2</Data>
+            <Data name="coat7BLeg_v2" target="coat" local="true">Body (Phys).osd\coat7BLeg_v2</Data>
+            <Data name="skirt-center7BLeg_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-center7BLeg_v2</Data>
+            <Data name="skirt-side7BLeg_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-side7BLeg_v2</Data>
+        </Slider>
+        <Slider name="Innieoutie" invert="false" small="0" big="0">
+            <Data name="pantsInnieoutie" target="pants" local="true">Body (Phys).osd\pantsInnieoutie</Data>
+            <Data name="skirt-centerInnieoutie" target="skirt-center" local="true">Body (Phys).osd\skirt-centerInnieoutie</Data>
+            <Data name="skirt-sideInnieoutie" target="skirt-side" local="true">Body (Phys).osd\skirt-sideInnieoutie</Data>
+        </Slider>
+        <Slider name="LabiaTightUp" invert="false" small="0" big="0">
+            <Data name="armplatesLabiaTightUp" target="armplates" local="true">Body (Phys).osd\armplatesLabiaTightUp</Data>
+            <Data name="pantsLabiaTightUp" target="pants" local="true">Body (Phys).osd\pantsLabiaTightUp</Data>
+            <Data name="sleevesLabiaTightUp" target="sleeves" local="true">Body (Phys).osd\sleevesLabiaTightUp</Data>
+            <Data name="coatLabiaTightUp" target="coat" local="true">Body (Phys).osd\coatLabiaTightUp</Data>
+            <Data name="pauldronLabiaTightUp" target="pauldron" local="true">Body (Phys).osd\pauldronLabiaTightUp</Data>
+            <Data name="vambraceLabiaTightUp" target="vambrace" local="true">Body (Phys).osd\vambraceLabiaTightUp</Data>
+        </Slider>
+        <Slider name="Labiapuffyness" invert="false" small="0" big="0">
+            <Data name="armplatesLabiapuffyness" target="armplates" local="true">Body (Phys).osd\armplatesLabiapuffyness</Data>
+            <Data name="pantsLabiapuffyness" target="pants" local="true">Body (Phys).osd\pantsLabiapuffyness</Data>
+            <Data name="sleevesLabiapuffyness" target="sleeves" local="true">Body (Phys).osd\sleevesLabiapuffyness</Data>
+            <Data name="coatLabiapuffyness" target="coat" local="true">Body (Phys).osd\coatLabiapuffyness</Data>
+            <Data name="pauldronLabiapuffyness" target="pauldron" local="true">Body (Phys).osd\pauldronLabiapuffyness</Data>
+            <Data name="vambraceLabiapuffyness" target="vambrace" local="true">Body (Phys).osd\vambraceLabiapuffyness</Data>
+            <Data name="skirt-centerLabiapuffyness" target="skirt-center" local="true">Body (Phys).osd\skirt-centerLabiapuffyness</Data>
+            <Data name="skirt-sideLabiapuffyness" target="skirt-side" local="true">Body (Phys).osd\skirt-sideLabiapuffyness</Data>
+        </Slider>
+        <Slider name="LabiaMorePuffyness_v2" invert="false" small="0" big="0">
+            <Data name="pantsLabiaMorePuffyness_v2" target="pants" local="true">Body (Phys).osd\pantsLabiaMorePuffyness_v2</Data>
+            <Data name="skirt-centerLabiaMorePuffyness_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerLabiaMorePuffyness_v2</Data>
+        </Slider>
+        <Slider name="Labiaprotrude" invert="false" small="0" big="0">
+            <Data name="pantsLabiaprotrude" target="pants" local="true">Body (Phys).osd\pantsLabiaprotrude</Data>
+            <Data name="skirt-centerLabiaprotrude" target="skirt-center" local="true">Body (Phys).osd\skirt-centerLabiaprotrude</Data>
+            <Data name="skirt-sideLabiaprotrude" target="skirt-side" local="true">Body (Phys).osd\skirt-sideLabiaprotrude</Data>
+        </Slider>
+        <Slider name="Labiaprotrude2" invert="false" small="0" big="0">
+            <Data name="pantsLabiaprotrude2" target="pants" local="true">Body (Phys).osd\pantsLabiaprotrude2</Data>
+            <Data name="skirt-centerLabiaprotrude2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerLabiaprotrude2</Data>
+            <Data name="skirt-sideLabiaprotrude2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideLabiaprotrude2</Data>
+        </Slider>
+        <Slider name="LabiaCrumpled_v2" invert="false" small="0" big="0">
+            <Data name="pantsLabiaCrumpled_v2" target="pants" local="true">Body (Phys).osd\pantsLabiaCrumpled_v2</Data>
+        </Slider>
+        <Slider name="LabiaNeat_v2" invert="false" small="0" big="0">
+            <Data name="pantsLabiaNeat_v2" target="pants" local="true">Body (Phys).osd\pantsLabiaNeat_v2</Data>
+        </Slider>
+        <Slider name="LabiaBulgogi_v2" invert="false" small="0" big="0">
+            <Data name="pantsLabiaBulgogi_v2" target="pants" local="true">Body (Phys).osd\pantsLabiaBulgogi_v2</Data>
+        </Slider>
+        <Slider name="Clit" invert="false" small="0" big="0">
+            <Data name="pantsClit" target="pants" local="true">Body (Phys).osd\pantsClit</Data>
+            <Data name="skirt-centerClit" target="skirt-center" local="true">Body (Phys).osd\skirt-centerClit</Data>
+            <Data name="skirt-sideClit" target="skirt-side" local="true">Body (Phys).osd\skirt-sideClit</Data>
+        </Slider>
+        <Slider name="ClitSwell_v2" invert="false" small="0" big="0">
+            <Data name="pantsClitSwell_v2" target="pants" local="true">Body (Phys).osd\pantsClitSwell_v2</Data>
+            <Data name="skirt-centerClitSwell_v2" target="skirt-center" local="true">Body (Phys).osd\skirt-centerClitSwell_v2</Data>
+            <Data name="skirt-sideClitSwell_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideClitSwell_v2</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="armplatesCutepuffyness" target="armplates" local="true">Body (Phys).osd\armplatesCutepuffyness</Data>
+            <Data name="pantsCutepuffyness" target="pants" local="true">Body (Phys).osd\pantsCutepuffyness</Data>
+            <Data name="sleevesCutepuffyness" target="sleeves" local="true">Body (Phys).osd\sleevesCutepuffyness</Data>
+            <Data name="wingletsCutepuffyness" target="winglets" local="true">Body (Phys).osd\wingletsCutepuffyness</Data>
+            <Data name="coatCutepuffyness" target="coat" local="true">Body (Phys).osd\coatCutepuffyness</Data>
+            <Data name="pauldronCutepuffyness" target="pauldron" local="true">Body (Phys).osd\pauldronCutepuffyness</Data>
+            <Data name="vambraceCutepuffyness" target="vambrace" local="true">Body (Phys).osd\vambraceCutepuffyness</Data>
+            <Data name="skirt-centerCutepuffyness" target="skirt-center" local="true">Body (Phys).osd\skirt-centerCutepuffyness</Data>
+            <Data name="skirt-sideCutepuffyness" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCutepuffyness</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="armplatesCBPC" target="armplates" local="true">Body (Phys).osd\armplatesCBPC</Data>
+            <Data name="pantsCBPC" target="pants" local="true">Body (Phys).osd\pantsCBPC</Data>
+            <Data name="sleevesCBPC" target="sleeves" local="true">Body (Phys).osd\sleevesCBPC</Data>
+            <Data name="pauldronCBPC" target="pauldron" local="true">Body (Phys).osd\pauldronCBPC</Data>
+            <Data name="vambraceCBPC" target="vambrace" local="true">Body (Phys).osd\vambraceCBPC</Data>
+            <Data name="skirt-centerCBPC" target="skirt-center" local="true">Body (Phys).osd\skirt-centerCBPC</Data>
+            <Data name="skirt-sideCBPC" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCBPC</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="pantsCrotchGap" target="pants" local="true">Body (Phys).osd\pantsCrotchGap</Data>
+            <Data name="skirt-centerCrotchGap" target="skirt-center" local="true">Body (Phys).osd\skirt-centerCrotchGap</Data>
+            <Data name="skirt-sideCrotchGap" target="skirt-side" local="true">Body (Phys).osd\skirt-sideCrotchGap</Data>
+        </Slider>
+        <Slider name="AnalPosition_v2" invert="false" small="0" big="0">
+            <Data name="pantsAnalPosition_v2" target="pants" local="true">Body (Phys).osd\pantsAnalPosition_v2</Data>
+            <Data name="skirt-sideAnalPosition_v2" target="skirt-side" local="true">Body (Phys).osd\skirt-sideAnalPosition_v2</Data>
+        </Slider>
+        <Slider name="Labiaprotrudeback" invert="false" small="0" big="0">
+            <Data name="pantsLabiaprotrudeback" target="pants" local="true">Body (Phys).osd\pantsLabiaprotrudeback</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

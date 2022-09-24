@@ -5,6 +5,7 @@
         <SourceFile>UUNP Body.nif</SourceFile>
         <OutputPath>meshes\Kreis\KSA\ksws02</OutputPath>
         <OutputFile GenWeights="true">BodyF</OutputFile>
+        <Shape target="UUNP Body" DataFolder="UUNP KSA\ksws02">UUNP Body</Shape>
         <Shape target="armplates">armplates</Shape>
         <Shape target="belt">belt</Shape>
         <Shape target="coat">coat</Shape>
@@ -434,27 +435,32 @@
             <Data name="skirt-sideThighs" target="skirt-side" local="true">UUNP Body.osd\skirt-sideThighs</Data>
         </Slider>
         <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="UUNP BodyChubbyLegs" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyChubbyLegs</Data>
             <Data name="pantsChubbyLegs" target="pants" local="true">UUNP Body.osd\pantsChubbyLegs</Data>
             <Data name="coatChubbyLegs" target="coat" local="true">UUNP Body.osd\coatChubbyLegs</Data>
             <Data name="skirt-centerChubbyLegs" target="skirt-center" local="true">UUNP Body.osd\skirt-centerChubbyLegs</Data>
             <Data name="skirt-sideChubbyLegs" target="skirt-side" local="true">UUNP Body.osd\skirt-sideChubbyLegs</Data>
         </Slider>
         <Slider name="Legs" invert="true" small="100" big="100">
+            <Data name="UUNP BodyLegs" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyLegs</Data>
             <Data name="pantsLegs" target="pants" local="true">UUNP Body.osd\pantsLegs</Data>
             <Data name="coatLegs" target="coat" local="true">UUNP Body.osd\coatLegs</Data>
             <Data name="skirt-centerLegs" target="skirt-center" local="true">UUNP Body.osd\skirt-centerLegs</Data>
             <Data name="skirt-sideLegs" target="skirt-side" local="true">UUNP Body.osd\skirt-sideLegs</Data>
         </Slider>
         <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="UUNP BodyKneeHeight" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyKneeHeight</Data>
             <Data name="pantsKneeHeight" target="pants" local="true">UUNP Body.osd\pantsKneeHeight</Data>
             <Data name="skirt-centerKneeHeight" target="skirt-center" local="true">UUNP Body.osd\skirt-centerKneeHeight</Data>
             <Data name="skirt-sideKneeHeight" target="skirt-side" local="true">UUNP Body.osd\skirt-sideKneeHeight</Data>
         </Slider>
         <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCalfSize" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCalfSize</Data>
             <Data name="pantsCalfSize" target="pants" local="true">UUNP Body.osd\pantsCalfSize</Data>
             <Data name="skirt-sideCalfSize" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCalfSize</Data>
         </Slider>
         <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCalfSmooth" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCalfSmooth</Data>
             <Data name="pantsCalfSmooth" target="pants" local="true">UUNP Body.osd\pantsCalfSmooth</Data>
             <Data name="skirt-sideCalfSmooth" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCalfSmooth</Data>
         </Slider>
@@ -465,6 +471,7 @@
             <Data name="vambraceNeck" target="vambrace" local="true">UUNP Body.osd\vambraceNeck</Data>
         </Slider>
         <Slider name="7B Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Low</Data>
             <Data name="armplates7B Low" target="armplates" local="true">UUNP Body.osd\armplates7B Low</Data>
             <Data name="belt7B Low" target="belt" local="true">UUNP Body.osd\belt7B Low</Data>
             <Data name="obi7B Low" target="obi" local="true">UUNP Body.osd\obi7B Low</Data>
@@ -478,6 +485,7 @@
             <Data name="skirt-side7B Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Low</Data>
         </Slider>
         <Slider name="7B High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B High</Data>
             <Data name="armplates7B High" target="armplates" local="true">UUNP Body.osd\armplates7B High</Data>
             <Data name="belt7B High" target="belt" local="true">UUNP Body.osd\belt7B High</Data>
             <Data name="obi7B High" target="obi" local="true">UUNP Body.osd\obi7B High</Data>
@@ -491,6 +499,7 @@
             <Data name="skirt-side7B High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B High</Data>
         </Slider>
         <Slider name="7B Bombshell Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Bombshell Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Bombshell Low</Data>
             <Data name="armplates7B Bombshell Low" target="armplates" local="true">UUNP Body.osd\armplates7B Bombshell Low</Data>
             <Data name="belt7B Bombshell Low" target="belt" local="true">UUNP Body.osd\belt7B Bombshell Low</Data>
             <Data name="obi7B Bombshell Low" target="obi" local="true">UUNP Body.osd\obi7B Bombshell Low</Data>
@@ -504,6 +513,7 @@
             <Data name="skirt-side7B Bombshell Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Bombshell Low</Data>
         </Slider>
         <Slider name="7B Bombshell High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Bombshell High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Bombshell High</Data>
             <Data name="armplates7B Bombshell High" target="armplates" local="true">UUNP Body.osd\armplates7B Bombshell High</Data>
             <Data name="belt7B Bombshell High" target="belt" local="true">UUNP Body.osd\belt7B Bombshell High</Data>
             <Data name="obi7B Bombshell High" target="obi" local="true">UUNP Body.osd\obi7B Bombshell High</Data>
@@ -517,6 +527,7 @@
             <Data name="skirt-side7B Bombshell High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Bombshell High</Data>
         </Slider>
         <Slider name="7B Natural Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Natural Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Natural Low</Data>
             <Data name="armplates7B Natural Low" target="armplates" local="true">UUNP Body.osd\armplates7B Natural Low</Data>
             <Data name="belt7B Natural Low" target="belt" local="true">UUNP Body.osd\belt7B Natural Low</Data>
             <Data name="obi7B Natural Low" target="obi" local="true">UUNP Body.osd\obi7B Natural Low</Data>
@@ -530,6 +541,7 @@
             <Data name="skirt-side7B Natural Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Natural Low</Data>
         </Slider>
         <Slider name="7B Natural High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Natural High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Natural High</Data>
             <Data name="armplates7B Natural High" target="armplates" local="true">UUNP Body.osd\armplates7B Natural High</Data>
             <Data name="belt7B Natural High" target="belt" local="true">UUNP Body.osd\belt7B Natural High</Data>
             <Data name="obi7B Natural High" target="obi" local="true">UUNP Body.osd\obi7B Natural High</Data>
@@ -543,6 +555,7 @@
             <Data name="skirt-side7B Natural High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Natural High</Data>
         </Slider>
         <Slider name="7B Cleavage Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Cleavage Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Cleavage Low</Data>
             <Data name="armplates7B Cleavage Low" target="armplates" local="true">UUNP Body.osd\armplates7B Cleavage Low</Data>
             <Data name="belt7B Cleavage Low" target="belt" local="true">UUNP Body.osd\belt7B Cleavage Low</Data>
             <Data name="obi7B Cleavage Low" target="obi" local="true">UUNP Body.osd\obi7B Cleavage Low</Data>
@@ -556,6 +569,7 @@
             <Data name="skirt-side7B Cleavage Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Cleavage Low</Data>
         </Slider>
         <Slider name="7B Cleavage High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Cleavage High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Cleavage High</Data>
             <Data name="armplates7B Cleavage High" target="armplates" local="true">UUNP Body.osd\armplates7B Cleavage High</Data>
             <Data name="belt7B Cleavage High" target="belt" local="true">UUNP Body.osd\belt7B Cleavage High</Data>
             <Data name="obi7B Cleavage High" target="obi" local="true">UUNP Body.osd\obi7B Cleavage High</Data>
@@ -569,6 +583,7 @@
             <Data name="skirt-side7B Cleavage High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Cleavage High</Data>
         </Slider>
         <Slider name="7B BCup Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B BCup Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B BCup Low</Data>
             <Data name="armplates7B BCup Low" target="armplates" local="true">UUNP Body.osd\armplates7B BCup Low</Data>
             <Data name="belt7B BCup Low" target="belt" local="true">UUNP Body.osd\belt7B BCup Low</Data>
             <Data name="obi7B BCup Low" target="obi" local="true">UUNP Body.osd\obi7B BCup Low</Data>
@@ -582,6 +597,7 @@
             <Data name="skirt-side7B BCup Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B BCup Low</Data>
         </Slider>
         <Slider name="7B BCup High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B BCup High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B BCup High</Data>
             <Data name="armplates7B BCup High" target="armplates" local="true">UUNP Body.osd\armplates7B BCup High</Data>
             <Data name="belt7B BCup High" target="belt" local="true">UUNP Body.osd\belt7B BCup High</Data>
             <Data name="obi7B BCup High" target="obi" local="true">UUNP Body.osd\obi7B BCup High</Data>
@@ -595,6 +611,7 @@
             <Data name="skirt-side7B BCup High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B BCup High</Data>
         </Slider>
         <Slider name="7BUNP Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7BUNP Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7BUNP Low</Data>
             <Data name="armplates7BUNP Low" target="armplates" local="true">UUNP Body.osd\armplates7BUNP Low</Data>
             <Data name="belt7BUNP Low" target="belt" local="true">UUNP Body.osd\belt7BUNP Low</Data>
             <Data name="obi7BUNP Low" target="obi" local="true">UUNP Body.osd\obi7BUNP Low</Data>
@@ -608,6 +625,7 @@
             <Data name="skirt-side7BUNP Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7BUNP Low</Data>
         </Slider>
         <Slider name="7BUNP High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7BUNP High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7BUNP High</Data>
             <Data name="armplates7BUNP High" target="armplates" local="true">UUNP Body.osd\armplates7BUNP High</Data>
             <Data name="belt7BUNP High" target="belt" local="true">UUNP Body.osd\belt7BUNP High</Data>
             <Data name="obi7BUNP High" target="obi" local="true">UUNP Body.osd\obi7BUNP High</Data>
@@ -621,6 +639,7 @@
             <Data name="skirt-side7BUNP High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7BUNP High</Data>
         </Slider>
         <Slider name="7B Oppai Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Oppai Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Oppai Low</Data>
             <Data name="armplates7B Oppai Low" target="armplates" local="true">UUNP Body.osd\armplates7B Oppai Low</Data>
             <Data name="belt7B Oppai Low" target="belt" local="true">UUNP Body.osd\belt7B Oppai Low</Data>
             <Data name="obi7B Oppai Low" target="obi" local="true">UUNP Body.osd\obi7B Oppai Low</Data>
@@ -634,6 +653,7 @@
             <Data name="skirt-side7B Oppai Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Oppai Low</Data>
         </Slider>
         <Slider name="7B Oppai High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B Oppai High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B Oppai High</Data>
             <Data name="armplates7B Oppai High" target="armplates" local="true">UUNP Body.osd\armplates7B Oppai High</Data>
             <Data name="belt7B Oppai High" target="belt" local="true">UUNP Body.osd\belt7B Oppai High</Data>
             <Data name="obi7B Oppai High" target="obi" local="true">UUNP Body.osd\obi7B Oppai High</Data>
@@ -647,6 +667,7 @@
             <Data name="skirt-side7B Oppai High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B Oppai High</Data>
         </Slider>
         <Slider name="7B CH Low" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B CH Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B CH Low</Data>
             <Data name="armplates7B CH Low" target="armplates" local="true">UUNP Body.osd\armplates7B CH Low</Data>
             <Data name="belt7B CH Low" target="belt" local="true">UUNP Body.osd\belt7B CH Low</Data>
             <Data name="obi7B CH Low" target="obi" local="true">UUNP Body.osd\obi7B CH Low</Data>
@@ -660,6 +681,7 @@
             <Data name="skirt-side7B CH Low" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B CH Low</Data>
         </Slider>
         <Slider name="7B CH High" invert="false" small="0" big="0">
+            <Data name="UUNP Body7B CH High" target="UUNP Body" local="true">UUNP Body.osd\UUNP Body7B CH High</Data>
             <Data name="armplates7B CH High" target="armplates" local="true">UUNP Body.osd\armplates7B CH High</Data>
             <Data name="belt7B CH High" target="belt" local="true">UUNP Body.osd\belt7B CH High</Data>
             <Data name="obi7B CH High" target="obi" local="true">UUNP Body.osd\obi7B CH High</Data>
@@ -673,6 +695,7 @@
             <Data name="skirt-side7B CH High" target="skirt-side" local="true">UUNP Body.osd\skirt-side7B CH High</Data>
         </Slider>
         <Slider name="UNP Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Low</Data>
             <Data name="armplatesUNP Low" target="armplates" local="true">UUNP Body.osd\armplatesUNP Low</Data>
             <Data name="beltUNP Low" target="belt" local="true">UUNP Body.osd\beltUNP Low</Data>
             <Data name="obiUNP Low" target="obi" local="true">UUNP Body.osd\obiUNP Low</Data>
@@ -686,6 +709,7 @@
             <Data name="skirt-sideUNP Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Low</Data>
         </Slider>
         <Slider name="UNP High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP High</Data>
             <Data name="armplatesUNP High" target="armplates" local="true">UUNP Body.osd\armplatesUNP High</Data>
             <Data name="beltUNP High" target="belt" local="true">UUNP Body.osd\beltUNP High</Data>
             <Data name="obiUNP High" target="obi" local="true">UUNP Body.osd\obiUNP High</Data>
@@ -699,6 +723,7 @@
             <Data name="skirt-sideUNP High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP High</Data>
         </Slider>
         <Slider name="UNP Pushup Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Pushup Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Pushup Low</Data>
             <Data name="armplatesUNP Pushup Low" target="armplates" local="true">UUNP Body.osd\armplatesUNP Pushup Low</Data>
             <Data name="beltUNP Pushup Low" target="belt" local="true">UUNP Body.osd\beltUNP Pushup Low</Data>
             <Data name="obiUNP Pushup Low" target="obi" local="true">UUNP Body.osd\obiUNP Pushup Low</Data>
@@ -712,6 +737,7 @@
             <Data name="skirt-sideUNP Pushup Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Pushup Low</Data>
         </Slider>
         <Slider name="UNP Pushup High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Pushup High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Pushup High</Data>
             <Data name="armplatesUNP Pushup High" target="armplates" local="true">UUNP Body.osd\armplatesUNP Pushup High</Data>
             <Data name="beltUNP Pushup High" target="belt" local="true">UUNP Body.osd\beltUNP Pushup High</Data>
             <Data name="obiUNP Pushup High" target="obi" local="true">UUNP Body.osd\obiUNP Pushup High</Data>
@@ -725,6 +751,7 @@
             <Data name="skirt-sideUNP Pushup High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Pushup High</Data>
         </Slider>
         <Slider name="UNP Skinny Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Skinny Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Skinny Low</Data>
             <Data name="armplatesUNP Skinny Low" target="armplates" local="true">UUNP Body.osd\armplatesUNP Skinny Low</Data>
             <Data name="beltUNP Skinny Low" target="belt" local="true">UUNP Body.osd\beltUNP Skinny Low</Data>
             <Data name="obiUNP Skinny Low" target="obi" local="true">UUNP Body.osd\obiUNP Skinny Low</Data>
@@ -738,6 +765,7 @@
             <Data name="skirt-sideUNP Skinny Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Skinny Low</Data>
         </Slider>
         <Slider name="UNP Skinny High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Skinny High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Skinny High</Data>
             <Data name="armplatesUNP Skinny High" target="armplates" local="true">UUNP Body.osd\armplatesUNP Skinny High</Data>
             <Data name="beltUNP Skinny High" target="belt" local="true">UUNP Body.osd\beltUNP Skinny High</Data>
             <Data name="obiUNP Skinny High" target="obi" local="true">UUNP Body.osd\obiUNP Skinny High</Data>
@@ -751,6 +779,7 @@
             <Data name="skirt-sideUNP Skinny High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Skinny High</Data>
         </Slider>
         <Slider name="UNP Perky Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Perky Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Perky Low</Data>
             <Data name="armplatesUNP Perky Low" target="armplates" local="true">UUNP Body.osd\armplatesUNP Perky Low</Data>
             <Data name="beltUNP Perky Low" target="belt" local="true">UUNP Body.osd\beltUNP Perky Low</Data>
             <Data name="obiUNP Perky Low" target="obi" local="true">UUNP Body.osd\obiUNP Perky Low</Data>
@@ -764,6 +793,7 @@
             <Data name="skirt-sideUNP Perky Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Perky Low</Data>
         </Slider>
         <Slider name="UNP Perky High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNP Perky High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNP Perky High</Data>
             <Data name="armplatesUNP Perky High" target="armplates" local="true">UUNP Body.osd\armplatesUNP Perky High</Data>
             <Data name="beltUNP Perky High" target="belt" local="true">UUNP Body.osd\beltUNP Perky High</Data>
             <Data name="obiUNP Perky High" target="obi" local="true">UUNP Body.osd\obiUNP Perky High</Data>
@@ -777,6 +807,7 @@
             <Data name="skirt-sideUNP Perky High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNP Perky High</Data>
         </Slider>
         <Slider name="UNPB Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPB Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPB Low</Data>
             <Data name="armplatesUNPB Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPB Low</Data>
             <Data name="beltUNPB Low" target="belt" local="true">UUNP Body.osd\beltUNPB Low</Data>
             <Data name="obiUNPB Low" target="obi" local="true">UUNP Body.osd\obiUNPB Low</Data>
@@ -790,6 +821,7 @@
             <Data name="skirt-sideUNPB Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPB Low</Data>
         </Slider>
         <Slider name="UNPB High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPB High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPB High</Data>
             <Data name="armplatesUNPB High" target="armplates" local="true">UUNP Body.osd\armplatesUNPB High</Data>
             <Data name="beltUNPB High" target="belt" local="true">UUNP Body.osd\beltUNPB High</Data>
             <Data name="obiUNPB High" target="obi" local="true">UUNP Body.osd\obiUNPB High</Data>
@@ -803,6 +835,7 @@
             <Data name="skirt-sideUNPB High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPB High</Data>
         </Slider>
         <Slider name="UNPB Chapi" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPB Chapi" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPB Chapi</Data>
             <Data name="armplatesUNPB Chapi" target="armplates" local="true">UUNP Body.osd\armplatesUNPB Chapi</Data>
             <Data name="beltUNPB Chapi" target="belt" local="true">UUNP Body.osd\beltUNPB Chapi</Data>
             <Data name="obiUNPB Chapi" target="obi" local="true">UUNP Body.osd\obiUNPB Chapi</Data>
@@ -816,6 +849,7 @@
             <Data name="skirt-sideUNPB Chapi" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPB Chapi</Data>
         </Slider>
         <Slider name="UNPB Oppai v1" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPB Oppai v1" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPB Oppai v1</Data>
             <Data name="armplatesUNPB Oppai v1" target="armplates" local="true">UUNP Body.osd\armplatesUNPB Oppai v1</Data>
             <Data name="beltUNPB Oppai v1" target="belt" local="true">UUNP Body.osd\beltUNPB Oppai v1</Data>
             <Data name="obiUNPB Oppai v1" target="obi" local="true">UUNP Body.osd\obiUNPB Oppai v1</Data>
@@ -829,6 +863,7 @@
             <Data name="skirt-sideUNPB Oppai v1" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPB Oppai v1</Data>
         </Slider>
         <Slider name="UNPB Oppai v3.2 Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPB Oppai v3.2 Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPB Oppai v3.2 Low</Data>
             <Data name="armplatesUNPB Oppai v3.2 Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPB Oppai v3.2 Low</Data>
             <Data name="beltUNPB Oppai v3.2 Low" target="belt" local="true">UUNP Body.osd\beltUNPB Oppai v3.2 Low</Data>
             <Data name="obiUNPB Oppai v3.2 Low" target="obi" local="true">UUNP Body.osd\obiUNPB Oppai v3.2 Low</Data>
@@ -842,6 +877,7 @@
             <Data name="skirt-sideUNPB Oppai v3.2 Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPB Oppai v3.2 Low</Data>
         </Slider>
         <Slider name="UNPB Oppai v3.2 High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPB Oppai v3.2 High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPB Oppai v3.2 High</Data>
             <Data name="armplatesUNPB Oppai v3.2 High" target="armplates" local="true">UUNP Body.osd\armplatesUNPB Oppai v3.2 High</Data>
             <Data name="beltUNPB Oppai v3.2 High" target="belt" local="true">UUNP Body.osd\beltUNPB Oppai v3.2 High</Data>
             <Data name="obiUNPB Oppai v3.2 High" target="obi" local="true">UUNP Body.osd\obiUNPB Oppai v3.2 High</Data>
@@ -855,6 +891,7 @@
             <Data name="skirt-sideUNPB Oppai v3.2 High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPB Oppai v3.2 High</Data>
         </Slider>
         <Slider name="UNPetite Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPetite Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPetite Low</Data>
             <Data name="armplatesUNPetite Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPetite Low</Data>
             <Data name="beltUNPetite Low" target="belt" local="true">UUNP Body.osd\beltUNPetite Low</Data>
             <Data name="obiUNPetite Low" target="obi" local="true">UUNP Body.osd\obiUNPetite Low</Data>
@@ -868,6 +905,7 @@
             <Data name="skirt-sideUNPetite Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPetite Low</Data>
         </Slider>
         <Slider name="UNPetite High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPetite High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPetite High</Data>
             <Data name="armplatesUNPetite High" target="armplates" local="true">UUNP Body.osd\armplatesUNPetite High</Data>
             <Data name="beltUNPetite High" target="belt" local="true">UUNP Body.osd\beltUNPetite High</Data>
             <Data name="obiUNPetite High" target="obi" local="true">UUNP Body.osd\obiUNPetite High</Data>
@@ -881,6 +919,7 @@
             <Data name="skirt-sideUNPetite High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPetite High</Data>
         </Slider>
         <Slider name="UNPC Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPC Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPC Low</Data>
             <Data name="armplatesUNPC Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPC Low</Data>
             <Data name="beltUNPC Low" target="belt" local="true">UUNP Body.osd\beltUNPC Low</Data>
             <Data name="obiUNPC Low" target="obi" local="true">UUNP Body.osd\obiUNPC Low</Data>
@@ -894,6 +933,7 @@
             <Data name="skirt-sideUNPC Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPC Low</Data>
         </Slider>
         <Slider name="UNPC High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPC High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPC High</Data>
             <Data name="armplatesUNPC High" target="armplates" local="true">UUNP Body.osd\armplatesUNPC High</Data>
             <Data name="beltUNPC High" target="belt" local="true">UUNP Body.osd\beltUNPC High</Data>
             <Data name="obiUNPC High" target="obi" local="true">UUNP Body.osd\obiUNPC High</Data>
@@ -907,6 +947,7 @@
             <Data name="skirt-sideUNPC High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPC High</Data>
         </Slider>
         <Slider name="UNPCM Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPCM Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPCM Low</Data>
             <Data name="armplatesUNPCM Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPCM Low</Data>
             <Data name="beltUNPCM Low" target="belt" local="true">UUNP Body.osd\beltUNPCM Low</Data>
             <Data name="obiUNPCM Low" target="obi" local="true">UUNP Body.osd\obiUNPCM Low</Data>
@@ -920,6 +961,7 @@
             <Data name="skirt-sideUNPCM Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPCM Low</Data>
         </Slider>
         <Slider name="UNPCM High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPCM High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPCM High</Data>
             <Data name="armplatesUNPCM High" target="armplates" local="true">UUNP Body.osd\armplatesUNPCM High</Data>
             <Data name="beltUNPCM High" target="belt" local="true">UUNP Body.osd\beltUNPCM High</Data>
             <Data name="obiUNPCM High" target="obi" local="true">UUNP Body.osd\obiUNPCM High</Data>
@@ -933,6 +975,7 @@
             <Data name="skirt-sideUNPCM High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPCM High</Data>
         </Slider>
         <Slider name="UNPSH Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPSH Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPSH Low</Data>
             <Data name="armplatesUNPSH Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPSH Low</Data>
             <Data name="beltUNPSH Low" target="belt" local="true">UUNP Body.osd\beltUNPSH Low</Data>
             <Data name="obiUNPSH Low" target="obi" local="true">UUNP Body.osd\obiUNPSH Low</Data>
@@ -946,6 +989,7 @@
             <Data name="skirt-sideUNPSH Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPSH Low</Data>
         </Slider>
         <Slider name="UNPSH High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPSH High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPSH High</Data>
             <Data name="armplatesUNPSH High" target="armplates" local="true">UUNP Body.osd\armplatesUNPSH High</Data>
             <Data name="beltUNPSH High" target="belt" local="true">UUNP Body.osd\beltUNPSH High</Data>
             <Data name="obiUNPSH High" target="obi" local="true">UUNP Body.osd\obiUNPSH High</Data>
@@ -959,6 +1003,7 @@
             <Data name="skirt-sideUNPSH High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPSH High</Data>
         </Slider>
         <Slider name="UNPK Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPK Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPK Low</Data>
             <Data name="armplatesUNPK Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPK Low</Data>
             <Data name="beltUNPK Low" target="belt" local="true">UUNP Body.osd\beltUNPK Low</Data>
             <Data name="obiUNPK Low" target="obi" local="true">UUNP Body.osd\obiUNPK Low</Data>
@@ -972,6 +1017,7 @@
             <Data name="skirt-sideUNPK Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPK Low</Data>
         </Slider>
         <Slider name="UNPK High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPK High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPK High</Data>
             <Data name="armplatesUNPK High" target="armplates" local="true">UUNP Body.osd\armplatesUNPK High</Data>
             <Data name="beltUNPK High" target="belt" local="true">UUNP Body.osd\beltUNPK High</Data>
             <Data name="obiUNPK High" target="obi" local="true">UUNP Body.osd\obiUNPK High</Data>
@@ -985,6 +1031,7 @@
             <Data name="skirt-sideUNPK High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPK High</Data>
         </Slider>
         <Slider name="UNPK Bonus Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPK Bonus Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPK Bonus Low</Data>
             <Data name="armplatesUNPK Bonus Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPK Bonus Low</Data>
             <Data name="beltUNPK Bonus Low" target="belt" local="true">UUNP Body.osd\beltUNPK Bonus Low</Data>
             <Data name="obiUNPK Bonus Low" target="obi" local="true">UUNP Body.osd\obiUNPK Bonus Low</Data>
@@ -998,6 +1045,7 @@
             <Data name="skirt-sideUNPK Bonus Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPK Bonus Low</Data>
         </Slider>
         <Slider name="UNPK Bonus High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPK Bonus High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPK Bonus High</Data>
             <Data name="armplatesUNPK Bonus High" target="armplates" local="true">UUNP Body.osd\armplatesUNPK Bonus High</Data>
             <Data name="beltUNPK Bonus High" target="belt" local="true">UUNP Body.osd\beltUNPK Bonus High</Data>
             <Data name="obiUNPK Bonus High" target="obi" local="true">UUNP Body.osd\obiUNPK Bonus High</Data>
@@ -1011,6 +1059,7 @@
             <Data name="skirt-sideUNPK Bonus High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPK Bonus High</Data>
         </Slider>
         <Slider name="UN7B Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUN7B Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUN7B Low</Data>
             <Data name="armplatesUN7B Low" target="armplates" local="true">UUNP Body.osd\armplatesUN7B Low</Data>
             <Data name="beltUN7B Low" target="belt" local="true">UUNP Body.osd\beltUN7B Low</Data>
             <Data name="obiUN7B Low" target="obi" local="true">UUNP Body.osd\obiUN7B Low</Data>
@@ -1024,6 +1073,7 @@
             <Data name="skirt-sideUN7B Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUN7B Low</Data>
         </Slider>
         <Slider name="UN7B High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUN7B High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUN7B High</Data>
             <Data name="armplatesUN7B High" target="armplates" local="true">UUNP Body.osd\armplatesUN7B High</Data>
             <Data name="beltUN7B High" target="belt" local="true">UUNP Body.osd\beltUN7B High</Data>
             <Data name="obiUN7B High" target="obi" local="true">UUNP Body.osd\obiUN7B High</Data>
@@ -1037,6 +1087,7 @@
             <Data name="skirt-sideUN7B High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUN7B High</Data>
         </Slider>
         <Slider name="UNPBB Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPBB Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPBB Low</Data>
             <Data name="armplatesUNPBB Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPBB Low</Data>
             <Data name="beltUNPBB Low" target="belt" local="true">UUNP Body.osd\beltUNPBB Low</Data>
             <Data name="obiUNPBB Low" target="obi" local="true">UUNP Body.osd\obiUNPBB Low</Data>
@@ -1050,6 +1101,7 @@
             <Data name="skirt-sideUNPBB Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPBB Low</Data>
         </Slider>
         <Slider name="UNPBB High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPBB High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPBB High</Data>
             <Data name="armplatesUNPBB High" target="armplates" local="true">UUNP Body.osd\armplatesUNPBB High</Data>
             <Data name="beltUNPBB High" target="belt" local="true">UUNP Body.osd\beltUNPBB High</Data>
             <Data name="obiUNPBB High" target="obi" local="true">UUNP Body.osd\obiUNPBB High</Data>
@@ -1063,6 +1115,7 @@
             <Data name="skirt-sideUNPBB High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPBB High</Data>
         </Slider>
         <Slider name="Seraphim Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodySeraphim Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodySeraphim Low</Data>
             <Data name="armplatesSeraphim Low" target="armplates" local="true">UUNP Body.osd\armplatesSeraphim Low</Data>
             <Data name="beltSeraphim Low" target="belt" local="true">UUNP Body.osd\beltSeraphim Low</Data>
             <Data name="obiSeraphim Low" target="obi" local="true">UUNP Body.osd\obiSeraphim Low</Data>
@@ -1076,6 +1129,7 @@
             <Data name="skirt-sideSeraphim Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideSeraphim Low</Data>
         </Slider>
         <Slider name="Seraphim High" invert="false" small="0" big="0">
+            <Data name="UUNP BodySeraphim High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodySeraphim High</Data>
             <Data name="armplatesSeraphim High" target="armplates" local="true">UUNP Body.osd\armplatesSeraphim High</Data>
             <Data name="beltSeraphim High" target="belt" local="true">UUNP Body.osd\beltSeraphim High</Data>
             <Data name="obiSeraphim High" target="obi" local="true">UUNP Body.osd\obiSeraphim High</Data>
@@ -1089,6 +1143,7 @@
             <Data name="skirt-sideSeraphim High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideSeraphim High</Data>
         </Slider>
         <Slider name="Demonfet Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyDemonfet Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyDemonfet Low</Data>
             <Data name="armplatesDemonfet Low" target="armplates" local="true">UUNP Body.osd\armplatesDemonfet Low</Data>
             <Data name="beltDemonfet Low" target="belt" local="true">UUNP Body.osd\beltDemonfet Low</Data>
             <Data name="obiDemonfet Low" target="obi" local="true">UUNP Body.osd\obiDemonfet Low</Data>
@@ -1102,6 +1157,7 @@
             <Data name="skirt-sideDemonfet Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideDemonfet Low</Data>
         </Slider>
         <Slider name="Demonfet High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyDemonfet High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyDemonfet High</Data>
             <Data name="armplatesDemonfet High" target="armplates" local="true">UUNP Body.osd\armplatesDemonfet High</Data>
             <Data name="beltDemonfet High" target="belt" local="true">UUNP Body.osd\beltDemonfet High</Data>
             <Data name="obiDemonfet High" target="obi" local="true">UUNP Body.osd\obiDemonfet High</Data>
@@ -1115,6 +1171,7 @@
             <Data name="skirt-sideDemonfet High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideDemonfet High</Data>
         </Slider>
         <Slider name="Dream Girl Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyDream Girl Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyDream Girl Low</Data>
             <Data name="armplatesDream Girl Low" target="armplates" local="true">UUNP Body.osd\armplatesDream Girl Low</Data>
             <Data name="beltDream Girl Low" target="belt" local="true">UUNP Body.osd\beltDream Girl Low</Data>
             <Data name="obiDream Girl Low" target="obi" local="true">UUNP Body.osd\obiDream Girl Low</Data>
@@ -1128,6 +1185,7 @@
             <Data name="skirt-sideDream Girl Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideDream Girl Low</Data>
         </Slider>
         <Slider name="Dream Girl High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyDream Girl High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyDream Girl High</Data>
             <Data name="armplatesDream Girl High" target="armplates" local="true">UUNP Body.osd\armplatesDream Girl High</Data>
             <Data name="beltDream Girl High" target="belt" local="true">UUNP Body.osd\beltDream Girl High</Data>
             <Data name="obiDream Girl High" target="obi" local="true">UUNP Body.osd\obiDream Girl High</Data>
@@ -1141,6 +1199,7 @@
             <Data name="skirt-sideDream Girl High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideDream Girl High</Data>
         </Slider>
         <Slider name="Top Model Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyTop Model Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyTop Model Low</Data>
             <Data name="armplatesTop Model Low" target="armplates" local="true">UUNP Body.osd\armplatesTop Model Low</Data>
             <Data name="beltTop Model Low" target="belt" local="true">UUNP Body.osd\beltTop Model Low</Data>
             <Data name="obiTop Model Low" target="obi" local="true">UUNP Body.osd\obiTop Model Low</Data>
@@ -1154,6 +1213,7 @@
             <Data name="skirt-sideTop Model Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideTop Model Low</Data>
         </Slider>
         <Slider name="Top Model High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyTop Model High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyTop Model High</Data>
             <Data name="armplatesTop Model High" target="armplates" local="true">UUNP Body.osd\armplatesTop Model High</Data>
             <Data name="beltTop Model High" target="belt" local="true">UUNP Body.osd\beltTop Model High</Data>
             <Data name="obiTop Model High" target="obi" local="true">UUNP Body.osd\obiTop Model High</Data>
@@ -1167,6 +1227,7 @@
             <Data name="skirt-sideTop Model High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideTop Model High</Data>
         </Slider>
         <Slider name="Leito Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyLeito Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyLeito Low</Data>
             <Data name="armplatesLeito Low" target="armplates" local="true">UUNP Body.osd\armplatesLeito Low</Data>
             <Data name="beltLeito Low" target="belt" local="true">UUNP Body.osd\beltLeito Low</Data>
             <Data name="obiLeito Low" target="obi" local="true">UUNP Body.osd\obiLeito Low</Data>
@@ -1180,6 +1241,7 @@
             <Data name="skirt-sideLeito Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideLeito Low</Data>
         </Slider>
         <Slider name="Leito High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyLeito High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyLeito High</Data>
             <Data name="armplatesLeito High" target="armplates" local="true">UUNP Body.osd\armplatesLeito High</Data>
             <Data name="beltLeito High" target="belt" local="true">UUNP Body.osd\beltLeito High</Data>
             <Data name="obiLeito High" target="obi" local="true">UUNP Body.osd\obiLeito High</Data>
@@ -1193,6 +1255,7 @@
             <Data name="skirt-sideLeito High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideLeito High</Data>
         </Slider>
         <Slider name="UNPF Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPF Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPF Low</Data>
             <Data name="armplatesUNPF Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPF Low</Data>
             <Data name="beltUNPF Low" target="belt" local="true">UUNP Body.osd\beltUNPF Low</Data>
             <Data name="obiUNPF Low" target="obi" local="true">UUNP Body.osd\obiUNPF Low</Data>
@@ -1206,6 +1269,7 @@
             <Data name="skirt-sideUNPF Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPF Low</Data>
         </Slider>
         <Slider name="UNPF High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPF High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPF High</Data>
             <Data name="armplatesUNPF High" target="armplates" local="true">UUNP Body.osd\armplatesUNPF High</Data>
             <Data name="beltUNPF High" target="belt" local="true">UUNP Body.osd\beltUNPF High</Data>
             <Data name="obiUNPF High" target="obi" local="true">UUNP Body.osd\obiUNPF High</Data>
@@ -1219,6 +1283,7 @@
             <Data name="skirt-sideUNPF High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPF High</Data>
         </Slider>
         <Slider name="UNPFx Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPFx Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPFx Low</Data>
             <Data name="armplatesUNPFx Low" target="armplates" local="true">UUNP Body.osd\armplatesUNPFx Low</Data>
             <Data name="beltUNPFx Low" target="belt" local="true">UUNP Body.osd\beltUNPFx Low</Data>
             <Data name="obiUNPFx Low" target="obi" local="true">UUNP Body.osd\obiUNPFx Low</Data>
@@ -1232,6 +1297,7 @@
             <Data name="skirt-sideUNPFx Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPFx Low</Data>
         </Slider>
         <Slider name="UNPFx High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyUNPFx High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyUNPFx High</Data>
             <Data name="armplatesUNPFx High" target="armplates" local="true">UUNP Body.osd\armplatesUNPFx High</Data>
             <Data name="beltUNPFx High" target="belt" local="true">UUNP Body.osd\beltUNPFx High</Data>
             <Data name="obiUNPFx High" target="obi" local="true">UUNP Body.osd\obiUNPFx High</Data>
@@ -1245,6 +1311,7 @@
             <Data name="skirt-sideUNPFx High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideUNPFx High</Data>
         </Slider>
         <Slider name="CNHF Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCNHF Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCNHF Low</Data>
             <Data name="armplatesCNHF Low" target="armplates" local="true">UUNP Body.osd\armplatesCNHF Low</Data>
             <Data name="beltCNHF Low" target="belt" local="true">UUNP Body.osd\beltCNHF Low</Data>
             <Data name="obiCNHF Low" target="obi" local="true">UUNP Body.osd\obiCNHF Low</Data>
@@ -1258,6 +1325,7 @@
             <Data name="skirt-sideCNHF Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCNHF Low</Data>
         </Slider>
         <Slider name="CNHF High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCNHF High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCNHF High</Data>
             <Data name="armplatesCNHF High" target="armplates" local="true">UUNP Body.osd\armplatesCNHF High</Data>
             <Data name="beltCNHF High" target="belt" local="true">UUNP Body.osd\beltCNHF High</Data>
             <Data name="obiCNHF High" target="obi" local="true">UUNP Body.osd\obiCNHF High</Data>
@@ -1271,6 +1339,7 @@
             <Data name="skirt-sideCNHF High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCNHF High</Data>
         </Slider>
         <Slider name="CNHF Bonus Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCNHF Bonus Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCNHF Bonus Low</Data>
             <Data name="armplatesCNHF Bonus Low" target="armplates" local="true">UUNP Body.osd\armplatesCNHF Bonus Low</Data>
             <Data name="beltCNHF Bonus Low" target="belt" local="true">UUNP Body.osd\beltCNHF Bonus Low</Data>
             <Data name="obiCNHF Bonus Low" target="obi" local="true">UUNP Body.osd\obiCNHF Bonus Low</Data>
@@ -1284,6 +1353,7 @@
             <Data name="skirt-sideCNHF Bonus Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCNHF Bonus Low</Data>
         </Slider>
         <Slider name="CNHF Bonus High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCNHF Bonus High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCNHF Bonus High</Data>
             <Data name="armplatesCNHF Bonus High" target="armplates" local="true">UUNP Body.osd\armplatesCNHF Bonus High</Data>
             <Data name="beltCNHF Bonus High" target="belt" local="true">UUNP Body.osd\beltCNHF Bonus High</Data>
             <Data name="obiCNHF Bonus High" target="obi" local="true">UUNP Body.osd\obiCNHF Bonus High</Data>
@@ -1297,6 +1367,7 @@
             <Data name="skirt-sideCNHF Bonus High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCNHF Bonus High</Data>
         </Slider>
         <Slider name="MCBM Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyMCBM Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyMCBM Low</Data>
             <Data name="armplatesMCBM Low" target="armplates" local="true">UUNP Body.osd\armplatesMCBM Low</Data>
             <Data name="beltMCBM Low" target="belt" local="true">UUNP Body.osd\beltMCBM Low</Data>
             <Data name="obiMCBM Low" target="obi" local="true">UUNP Body.osd\obiMCBM Low</Data>
@@ -1310,6 +1381,7 @@
             <Data name="skirt-sideMCBM Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideMCBM Low</Data>
         </Slider>
         <Slider name="MCBM High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyMCBM High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyMCBM High</Data>
             <Data name="armplatesMCBM High" target="armplates" local="true">UUNP Body.osd\armplatesMCBM High</Data>
             <Data name="beltMCBM High" target="belt" local="true">UUNP Body.osd\beltMCBM High</Data>
             <Data name="obiMCBM High" target="obi" local="true">UUNP Body.osd\obiMCBM High</Data>
@@ -1323,6 +1395,7 @@
             <Data name="skirt-sideMCBM High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideMCBM High</Data>
         </Slider>
         <Slider name="Venus Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyVenus Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyVenus Low</Data>
             <Data name="armplatesVenus Low" target="armplates" local="true">UUNP Body.osd\armplatesVenus Low</Data>
             <Data name="beltVenus Low" target="belt" local="true">UUNP Body.osd\beltVenus Low</Data>
             <Data name="obiVenus Low" target="obi" local="true">UUNP Body.osd\obiVenus Low</Data>
@@ -1336,6 +1409,7 @@
             <Data name="skirt-sideVenus Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideVenus Low</Data>
         </Slider>
         <Slider name="Venus High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyVenus High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyVenus High</Data>
             <Data name="armplatesVenus High" target="armplates" local="true">UUNP Body.osd\armplatesVenus High</Data>
             <Data name="beltVenus High" target="belt" local="true">UUNP Body.osd\beltVenus High</Data>
             <Data name="obiVenus High" target="obi" local="true">UUNP Body.osd\obiVenus High</Data>
@@ -1349,6 +1423,7 @@
             <Data name="skirt-sideVenus High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideVenus High</Data>
         </Slider>
         <Slider name="ZGGB-R2 Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyZGGB-R2 Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyZGGB-R2 Low</Data>
             <Data name="armplatesZGGB-R2 Low" target="armplates" local="true">UUNP Body.osd\armplatesZGGB-R2 Low</Data>
             <Data name="beltZGGB-R2 Low" target="belt" local="true">UUNP Body.osd\beltZGGB-R2 Low</Data>
             <Data name="obiZGGB-R2 Low" target="obi" local="true">UUNP Body.osd\obiZGGB-R2 Low</Data>
@@ -1362,6 +1437,7 @@
             <Data name="skirt-sideZGGB-R2 Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideZGGB-R2 Low</Data>
         </Slider>
         <Slider name="ZGGB-R2 High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyZGGB-R2 High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyZGGB-R2 High</Data>
             <Data name="armplatesZGGB-R2 High" target="armplates" local="true">UUNP Body.osd\armplatesZGGB-R2 High</Data>
             <Data name="beltZGGB-R2 High" target="belt" local="true">UUNP Body.osd\beltZGGB-R2 High</Data>
             <Data name="obiZGGB-R2 High" target="obi" local="true">UUNP Body.osd\obiZGGB-R2 High</Data>
@@ -1375,6 +1451,7 @@
             <Data name="skirt-sideZGGB-R2 High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideZGGB-R2 High</Data>
         </Slider>
         <Slider name="Manga Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyManga Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyManga Low</Data>
             <Data name="armplatesManga Low" target="armplates" local="true">UUNP Body.osd\armplatesManga Low</Data>
             <Data name="beltManga Low" target="belt" local="true">UUNP Body.osd\beltManga Low</Data>
             <Data name="obiManga Low" target="obi" local="true">UUNP Body.osd\obiManga Low</Data>
@@ -1388,6 +1465,7 @@
             <Data name="skirt-sideManga Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideManga Low</Data>
         </Slider>
         <Slider name="Manga High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyManga High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyManga High</Data>
             <Data name="armplatesManga High" target="armplates" local="true">UUNP Body.osd\armplatesManga High</Data>
             <Data name="beltManga High" target="belt" local="true">UUNP Body.osd\beltManga High</Data>
             <Data name="obiManga High" target="obi" local="true">UUNP Body.osd\obiManga High</Data>
@@ -1401,6 +1479,7 @@
             <Data name="skirt-sideManga High" target="skirt-side" local="true">UUNP Body.osd\skirt-sideManga High</Data>
         </Slider>
         <Slider name="CHSBHC Low" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCHSBHC Low" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCHSBHC Low</Data>
             <Data name="armplatesCHSBHC Low" target="armplates" local="true">UUNP Body.osd\armplatesCHSBHC Low</Data>
             <Data name="beltCHSBHC Low" target="belt" local="true">UUNP Body.osd\beltCHSBHC Low</Data>
             <Data name="obiCHSBHC Low" target="obi" local="true">UUNP Body.osd\obiCHSBHC Low</Data>
@@ -1414,6 +1493,7 @@
             <Data name="skirt-sideCHSBHC Low" target="skirt-side" local="true">UUNP Body.osd\skirt-sideCHSBHC Low</Data>
         </Slider>
         <Slider name="CHSBHC High" invert="false" small="0" big="0">
+            <Data name="UUNP BodyCHSBHC High" target="UUNP Body" local="true">UUNP Body.osd\UUNP BodyCHSBHC High</Data>
             <Data name="armplatesCHSBHC High" target="armplates" local="true">UUNP Body.osd\armplatesCHSBHC High</Data>
             <Data name="beltCHSBHC High" target="belt" local="true">UUNP Body.osd\beltCHSBHC High</Data>
             <Data name="obiCHSBHC High" target="obi" local="true">UUNP Body.osd\obiCHSBHC High</Data>
