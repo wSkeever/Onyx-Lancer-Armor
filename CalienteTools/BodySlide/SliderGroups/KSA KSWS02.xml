@@ -6,6 +6,7 @@
         <Member name="CBBE 3BA KSA - Feet - KSWS02"/>
         <Member name="CBBE 3BA KSA - Hands - KSWS02 B"/>
         <Member name="CBBE 3BA KSA - Hands - KSWS02 H"/>
+        <Member name="CBBE 3BA KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="3BBB">
         <Member name="CBBE 3BA KSA - Body - KSWS02"/>
@@ -13,24 +14,28 @@
         <Member name="CBBE 3BA KSA - Feet - KSWS02"/>
         <Member name="CBBE 3BA KSA - Hands - KSWS02 B"/>
         <Member name="CBBE 3BA KSA - Hands - KSWS02 H"/>
+        <Member name="CBBE 3BA KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="BHUNP">
         <Member name="BHUNP KSA - Body - KSWS02"/>
         <Member name="BHUNP KSA - Feet - KSWS02"/>
         <Member name="BHUNP KSA - Hands - KSWS02 B"/>
         <Member name="BHUNP KSA - Hands - KSWS02 H"/>
+        <Member name="BHUNP KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="BHUNP 3BBB">
         <Member name="BHUNP KSA - Body - KSWS02"/>
         <Member name="BHUNP KSA - Feet - KSWS02"/>
         <Member name="BHUNP KSA - Hands - KSWS02 B"/>
         <Member name="BHUNP KSA - Hands - KSWS02 H"/>
+        <Member name="BHUNP KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="BHUNP KSA - KSWS02">
         <Member name="BHUNP KSA - Body - KSWS02"/>
         <Member name="BHUNP KSA - Feet - KSWS02"/>
         <Member name="BHUNP KSA - Hands - KSWS02 B"/>
         <Member name="BHUNP KSA - Hands - KSWS02 H"/>
+        <Member name="BHUNP KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="CBAdvanced">
         <Member name="UUNP KSA - Body - KSWS02"/>
@@ -52,6 +57,7 @@
         <Member name="CBBE KSA - Head - KSWS02"/>
         <Member name="CBBE KSA - Head - KSWS02 Arg"/>
         <Member name="CBBE KSA - Head - KSWS02 Kha"/>
+        <Member name="CBBE 3BA KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="CBBE 3BA KSA - KSWS02">
         <Member name="CBBE 3BA KSA - Body - KSWS02"/>
@@ -59,6 +65,7 @@
         <Member name="CBBE 3BA KSA - Feet - KSWS02"/>
         <Member name="CBBE 3BA KSA - Hands - KSWS02 B"/>
         <Member name="CBBE 3BA KSA - Hands - KSWS02 H"/>
+        <Member name="CBBE 3BA KSA - Body - KSWS02 (3BBB Phys)"/>
     </Group>
     <Group name="CBBE KSA - KSWS02">
         <Member name="CBBE KSA - Body - KSWS02"/>
